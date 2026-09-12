@@ -35,6 +35,7 @@ def check_one(atlas_id, url):
             "url_checked": url,
             "http_status": resp.status_code,
             "reachable": resp.status_code < 400,
+            "likely_bot_blocked": resp.status_code in (403, 429),
             "notes": None,
             "checked_by": "github_action",
         }
@@ -45,6 +46,7 @@ def check_one(atlas_id, url):
             "url_checked": url,
             "http_status": None,
             "reachable": False,
+            "likely_bot_blocked": False,
             "notes": str(e)[:300],
             "checked_by": "github_action",
         }
@@ -66,11 +68,18 @@ def main():
     log.extend(results)
     log_path.write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    n_unreachable = sum(1 for r in results if not r["reachable"])
-    print(f"checked {len(results)} links, {n_unreachable} unreachable")
-    for r in results:
-        if not r["reachable"]:
-            print(f"  UNREACHABLE {r['atlas_id']}: {r['url_checked']} (status={r['http_status']}, notes={r['notes']})")
+    unreachable = [r for r in results if not r["reachable"]]
+    blocked = [r for r in unreachable if r["likely_bot_blocked"]]
+    truly_unreachable = [r for r in unreachable if not r["likely_bot_blocked"]]
+
+    print(
+        f"checked {len(results)} links: {len(unreachable)} unreachable "
+        f"({len(blocked)} likely bot-blocked (403/429), {len(truly_unreachable)} worth investigating)"
+    )
+    for r in truly_unreachable:
+        print(f"  UNREACHABLE {r['atlas_id']}: {r['url_checked']} (status={r['http_status']}, notes={r['notes']})")
+    for r in blocked:
+        print(f"  blocked (likely bot defense) {r['atlas_id']}: {r['url_checked']} (status={r['http_status']})")
 
 
 if __name__ == "__main__":

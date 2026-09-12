@@ -22,7 +22,12 @@
       "type": ["integer", "null"]
     },
     "reachable": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Raw HTTP signal: true if the response status was < 400. A 403/429 from bot-blocking publishers counts as unreachable here even though the link itself is fine for a human in a browser -- see likely_bot_blocked."
+    },
+    "likely_bot_blocked": {
+      "type": ["boolean", "null"],
+      "description": "True when http_status is 403 or 429, the classic signature of a publisher's anti-bot/anti-scraper defense rather than a dead link. Added after the first real check run showed ~90% of 'unreachable' results were ACS/Wiley/ScienceDirect/etc. blocking the checker's User-Agent, not link rot. Absent (not false) on entries logged before this field existed -- do not treat a missing value as 'confirmed not blocked'."
     },
     "notes": {
       "type": ["string", "null"]
