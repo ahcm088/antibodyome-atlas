@@ -150,7 +150,8 @@ Python package: `cd python-package && pip install -e ".[test]" && pytest`
 - [x] Automated weekly link checking with history
 - [x] R client (`AAbAtlas`) and Python client (`aabatlas`), both with passing CI
 - [x] Static browsable front-end (`docs/`) — needs GitHub Pages enabled in repo settings
-- [ ] Publish to CRAN / r-universe and PyPI
+- [ ] Publish `AAbAtlas` to r-universe (registry repo + GitHub App install pending)
+- [ ] Publish `aabatlas` to PyPI (trusted publisher configured, first release tag pending)
 
 ## License
 

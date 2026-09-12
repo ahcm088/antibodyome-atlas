@@ -1,0 +1,27 @@
+name: Publish aabatlas to PyPI
+
+on:
+  push:
+    tags:
+      - "python-v*.*.*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write  # required for PyPI trusted publishing (OIDC) -- no API token stored in this repo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install build
+      - run: python -m build
+        working-directory: python-package
+
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: python-package/dist
