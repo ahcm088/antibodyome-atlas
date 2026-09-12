@@ -99,7 +99,7 @@ Neither package is published to CRAN/PyPI yet — install directly from GitHub a
 
 ### Front-end
 
-Prefer browsing over code? [`docs/index.html`](docs/index.html) is a single static page — no build step, no framework — that fetches the same `metadata/*.json` files (via jsDelivr's GitHub CDN) and renders them as a searchable, filterable card grid: search by title/condition, filter by organism/record type/data availability, and a per-record link-health indicator sourced straight from `link_status.json`.
+Prefer browsing over code? [`docs/index.html`](docs/index.html) is a single static page — no build step, no framework — that fetches the same `metadata/*.json` files (via jsDelivr's GitHub CDN) and renders them as a sortable, filterable table: search by title/condition, filter by organism/record type/data availability, click a row to expand its full summary, conditions, platform, and citation, and see a per-record link-health status sourced straight from `link_status.json`.
 
 It's served by GitHub Pages once enabled: **Settings → Pages → Source → Deploy from a branch → `main` / `docs`**. After that it's live at `https://ahcm088.github.io/antibodyome-atlas/` and rebuilds itself on every visit — there's nothing to redeploy when the data changes.
 
