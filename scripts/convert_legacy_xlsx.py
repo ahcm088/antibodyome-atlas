@@ -9,6 +9,7 @@ already fully curated by hand.
 Usage: python scripts/convert_legacy_xlsx.py
 """
 import json
+import re
 from pathlib import Path
 
 import openpyxl
@@ -141,11 +142,28 @@ def parse_total_sample_n(raw, review_notes):
     return None, None
 
 
+def split_urls(raw):
+    """A handful of rows curated more than one URL into a single link field,
+    joined by ';' or even a literal newline. Splitting on both keeps the
+    dataset_link picker from swallowing two URLs as one malformed string."""
+    if is_na(raw):
+        return []
+    parts = [p.strip() for p in re.split(r"[;\n]+", str(raw)) if p.strip()]
+    out = []
+    for p in parts:
+        if not re.match(r"^https?://", p, re.IGNORECASE):
+            p = "https://" + p
+        out.append(p)
+    return out
+
+
 def pick_dataset_link(row, review_notes):
     for field in ("Dataset link", "publisher link", "pubmed link"):
-        v = row[field]
-        if not is_na(v) and str(v).strip().lower().startswith("http"):
-            return str(v).strip()
+        urls = split_urls(row[field])
+        if len(urls) > 1:
+            review_notes.append(f"{field} had multiple URLs ({row[field]!r}); used the first: {urls[0]!r}")
+        if urls:
+            return urls[0]
     review_notes.append("no usable link found in Dataset link / publisher link / pubmed link")
     return None
 
@@ -165,9 +183,11 @@ def main():
     for i, row in enumerate(rows, start=1):
         d = dict(zip(HEADERS, row))
         atlas_id = f"AAB-{i:06d}"
-        for acc in [d["GEO_ID"], d["Acession number"]]:
-            if not is_na(acc):
-                accession_to_atlas_id[str(acc).strip()] = atlas_id
+        accs = split_multi(d["Acession number"])
+        if not is_na(d["GEO_ID"]):
+            accs.append(str(d["GEO_ID"]).strip())
+        for acc in accs:
+            accession_to_atlas_id[acc] = atlas_id
 
     for i, row in enumerate(rows, start=1):
         d = dict(zip(HEADERS, row))
@@ -251,7 +271,7 @@ def main():
             "source_ids": {
                 "geo_id": None if is_na(d["GEO_ID"]) else str(d["GEO_ID"]).strip(),
                 "arrayexpress_id": None,
-                "other_accessions": [a for a in [d["Acession number"]] if not is_na(a)],
+                "other_accessions": split_multi(d["Acession number"]),
             },
             "dataset_link": dataset_link,
             "related_atlas_ids": related_atlas_ids,
@@ -279,7 +299,11 @@ def main():
         json.dumps(sorted(platforms.values(), key=lambda p: p["platform_id"]), indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
-    (OUT_DIR / "link_status.json").write_text("[]\n", encoding="utf-8")
+    # link_status.json is an append-only log maintained by check_links.py,
+    # not by this migration script -- never overwrite real check history.
+    link_status_path = OUT_DIR / "link_status.json"
+    if not link_status_path.exists():
+        link_status_path.write_text("[]\n", encoding="utf-8")
 
     report = {
         "total_rows": len(rows),

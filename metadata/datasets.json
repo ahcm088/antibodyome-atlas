@@ -1304,10 +1304,11 @@
       "geo_id": "200063503",
       "arrayexpress_id": null,
       "other_accessions": [
-        "GSE63503; PMDE94"
+        "GSE63503",
+        "PMDE94"
       ]
     },
-    "dataset_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63503; http://proteinmicroarray.cn/index.php?option=com_experiment&view=detail&experiment_id=94",
+    "dataset_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63503",
     "related_atlas_ids": [],
     "country": [],
     "publication_id": "doi-10-4049-jimmunol-1402573",
@@ -8267,7 +8268,7 @@
       "arrayexpress_id": null,
       "other_accessions": []
     },
-    "dataset_link": "https://pubmed.ncbi.nlm.nih.gov/40026393/",
+    "dataset_link": "https://www.sciencedirect.com/science/article/pii/S2589909025000127",
     "related_atlas_ids": [],
     "country": [
       "France"
@@ -8511,7 +8512,7 @@
       "arrayexpress_id": null,
       "other_accessions": []
     },
-    "dataset_link": "https://pubmed.ncbi.nlm.nih.gov/38634529/",
+    "dataset_link": "https://onlinelibrary.wiley.com/doi/10.1002/ana.26943",
     "related_atlas_ids": [],
     "country": [
       "United States"
@@ -8838,7 +8839,7 @@
       "arrayexpress_id": null,
       "other_accessions": []
     },
-    "dataset_link": "https://pubmed.ncbi.nlm.nih.gov/38133926/",
+    "dataset_link": "https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncr.35158",
     "related_atlas_ids": [],
     "country": [
       "China"
@@ -11137,7 +11138,7 @@
       "arrayexpress_id": null,
       "other_accessions": []
     },
-    "dataset_link": "https://link.springer.com/article/10.1007/s00432-023-04643-z\nhttps://www.mcponline.org/article/S1535-9476(20)32306-9",
+    "dataset_link": "https://link.springer.com/article/10.1007/s00432-023-04643-z",
     "related_atlas_ids": [],
     "country": [
       "China"
@@ -13051,7 +13052,7 @@
       "arrayexpress_id": null,
       "other_accessions": []
     },
-    "dataset_link": "https://www.mcponline.org/article/S1535-9476(20)33958-X/fulltext\nhttps://pdf.sciencedirectassets.com/778419/1-s2.0-S1535947620X61949/1-s2.0-S153594762033958X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGYaCXVzLWVhc3QtMSJHMEUCIQDNoDK8m%2BN1CPHt325%2FxkJD9JYuIgxueg9u9M63zUJmYgIgKxBQaoHozHZ3LzuPkxhVgM3RafGrk9Ycz1vvUrWtixYquwUIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDDhqzkvTcv9auFKZ3SqPBYjyjwkQD5KodAkgMuzt9xdBQoEEgV92wFoLzqHkjbOEiAHUcVYQL7x3ngQs1yr5tPMb%2FD2glx1Zedq1vO2rX9v5j4IwCV0EKIEZFzls2f6A7tKoFOAefvsDfnBLwOAcAl37K41zN4S%2BQh0qZRD5CVtG7seTklByrUAdDWQxcnyzWuoL7NPMuZxm%2FWxFEMZPNcGO2SzG0hpcKip%2Ba8pCt1tBtYi65Cg6GP5D9HB7dUpq8iAg9%2FanmEWiOJC9UidOzpwoinH9%2Fpa5FyZGg%2F1V0N9VMx5kB2Fq%2BYl3IeHc4hSvk8SbF0cZN69wGAnqBLcIxlW6vx1gIl1Titbd7aRYcLzeAFryqvIir9UU51o21fz5ZI4wwiGh3cg6DaQW4LZiH1%2Bg6X9f25anLi7sDrMXhyz689RSFuCMYldl%2BBB3OaNL52gTIrafgpcCRoP%2FPU1GZfRS8M5vv%2Fcl04AcGM8oue4P0GHwTVmBaV9MtD%2Fb3qdR2mhdwEWG4yQjr9r3RPNMgSZ8rOVWDmdgLX6tahnH7pRDwM4i1m10s86HySYwauRHgoGtQiDBIRtdSns5x3Hm0iFTUfjLLpj7Wpg6omJwDRAcdDaUn5dLtpNsf7mGUldBnlSHH7DTLeeqFBJ55OFmDfTmbgHR2WUR%2BACnAhz4qeFbtLE1YjDuY331SkveKRKJTz%2FSvgIYmoCRqrF04HC1Dn5w9aLtMXdDcfG2JuXdKAjCYYKZEeyC0RZUcAoBFRFSOmj%2BPlgvdbB%2BqRbyIGgJW1STDw%2FURcg4LQbAkn0MohwAPZl9fog0%2BycTWNascbvU8hpG9z6N2XNnn8kMAeCeu6ojsplFt%2BckZ3TJ0DVYbPpgnZhH3HAXiXDPWtF7gmUwyN%2BXqwY6sQHEPm3kOMAqzTRLWc%2BHNTEPkDU4ekTUin%2FUaBIHQAgo%2BLpTe7ml%2BJQ8HhwF%2B8K7W9Z0hggR%2B0rKE5p67sGztbNCgopFXBC%2BptMkbG%2BIpo62NPRbYeXqrrs8dbTLqPwmUzympOdviKqDjHqSoCaJXbME4EgLxU2gPyT%2FAY9jB9epJTr1ETRWr5NRNOVDvVGyumNEVDLvY15zy%2B5Ek9h2WdNEhiy%2Bsmn0Pml6%2FZhVkioF1l4%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231128T142131Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4RPWKOWI%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=33819116ab08cb998892ebf68f80ba7752216d50e8eff839f2a18d4cd950c0c8&hash=63ec3b3e66fe08140909dbd4c99bea65f720b97f6974544a1f21e6de4507e5ac&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S153594762033958X&tid=spdf-f2998b9f-1d9e-4315-b4d9-9f531d776416&sid=7146cec92fce49485a7b0ed8acf900feb764gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1e035b530a525055045a0d&rr=82d341f8b8642681&cc=de",
+    "dataset_link": "https://www.mcponline.org/article/S1535-9476(20)33958-X/fulltext",
     "related_atlas_ids": [],
     "country": [
       "Spain"
@@ -14782,7 +14783,7 @@
         "S-EPMC7228772"
       ]
     },
-    "dataset_link": "https://doi.org/10.7272/Q66H4FM2;www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC7228772",
+    "dataset_link": "https://doi.org/10.7272/Q66H4FM2",
     "related_atlas_ids": [],
     "country": [
       "United States"
@@ -14854,7 +14855,7 @@
         "S-EPMC9711525"
       ]
     },
-    "dataset_link": "https://doi.org/10.5061/dryad.qfttdz0k4;https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC9711525",
+    "dataset_link": "https://doi.org/10.5061/dryad.qfttdz0k4",
     "related_atlas_ids": [],
     "country": [
       "United States",
@@ -14891,7 +14892,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9143919 "
+        "S-EPMC9143919"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC9143919",
@@ -14972,7 +14973,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9312229 "
+        "S-EPMC9312229"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC9312229",
@@ -15032,10 +15033,10 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC10312872 "
+        "S-EPMC10312872"
       ]
     },
-    "dataset_link": "https://datadryad.org/dataset/doi:10.5061/dryad.kh18932hj; https://www.ebi.ac.uk/biostudies/studies/S-EPMC10312872",
+    "dataset_link": "https://datadryad.org/dataset/doi:10.5061/dryad.kh18932hj",
     "related_atlas_ids": [],
     "country": [
       "United States",
@@ -15089,7 +15090,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9254439 "
+        "S-EPMC9254439"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9254439",
@@ -15125,7 +15126,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9476399 "
+        "S-EPMC9476399"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9476399",
@@ -15176,10 +15177,11 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "PRJNA1004422; S-EPMC10546397 "
+        "PRJNA1004422",
+        "S-EPMC10546397"
       ]
     },
-    "dataset_link": "https://www.ncbi.nlm.nih.gov/bioproject/1004422; https://www.ebi.ac.uk/biostudies/studies/S-EPMC10546397",
+    "dataset_link": "https://www.ncbi.nlm.nih.gov/bioproject/1004422",
     "related_atlas_ids": [],
     "country": [
       "United States"
@@ -15266,7 +15268,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC11506559 "
+        "S-EPMC11506559"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC11506559",
@@ -15322,7 +15324,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC8414044 "
+        "S-EPMC8414044"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC8414044",
@@ -15376,10 +15378,10 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC10795829 "
+        "S-EPMC10795829"
       ]
     },
-    "dataset_link": "https://datadryad.org/dataset/doi:10.7272/Q6BG2M7B; https://www.ebi.ac.uk/biostudies/studies/S-EPMC10795829",
+    "dataset_link": "https://datadryad.org/dataset/doi:10.7272/Q6BG2M7B",
     "related_atlas_ids": [],
     "country": [],
     "publication_id": "pmid-37934865",
@@ -15432,7 +15434,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC11822791 "
+        "S-EPMC11822791"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC11822791",
@@ -15483,7 +15485,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9597704 "
+        "S-EPMC9597704"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9597704",
@@ -15537,7 +15539,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9652015 "
+        "S-EPMC9652015"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9652015",
@@ -15601,10 +15603,11 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "PRJNA1070874; S-EPMC11634884 "
+        "PRJNA1070874",
+        "S-EPMC11634884"
       ]
     },
-    "dataset_link": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1070874; https://www.ebi.ac.uk/biostudies/studies/S-EPMC11634884",
+    "dataset_link": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1070874",
     "related_atlas_ids": [],
     "country": [
       "Russia"
@@ -15644,7 +15647,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9681064 "
+        "S-EPMC9681064"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9681064",
@@ -15696,10 +15699,10 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC12719746 "
+        "S-EPMC12719746"
       ]
     },
-    "dataset_link": "https://zenodo.org/records/16412319; https://www.ebi.ac.uk/biostudies/studies/S-EPMC12719746",
+    "dataset_link": "https://zenodo.org/records/16412319",
     "related_atlas_ids": [],
     "country": [
       "United States"
@@ -15734,7 +15737,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC7618343 "
+        "S-EPMC7618343"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC7618343",
@@ -15783,7 +15786,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC4169279 "
+        "S-EPMC4169279"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC4169279",
@@ -15844,7 +15847,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9329235 "
+        "S-EPMC9329235"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9329235",
@@ -16254,7 +16257,7 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC9900111 "
+        "S-EPMC9900111"
       ]
     },
     "dataset_link": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9900111",
@@ -16312,10 +16315,10 @@
       "geo_id": null,
       "arrayexpress_id": null,
       "other_accessions": [
-        "S-EPMC10393220 "
+        "S-EPMC10393220"
       ]
     },
-    "dataset_link": "https://datadryad.org/dataset/doi:10.7272/Q6Z60M99; https://www.ebi.ac.uk/biostudies/studies/S-EPMC10393220",
+    "dataset_link": "https://datadryad.org/dataset/doi:10.7272/Q6Z60M99",
     "related_atlas_ids": [],
     "country": [
       "United States"
