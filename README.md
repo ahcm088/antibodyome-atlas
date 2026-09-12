@@ -6,6 +6,8 @@ A curated, version-controlled catalog of autoantibody profiling datasets and pap
 [![Python check](https://github.com/ahcm088/antibodyome-atlas/actions/workflows/python-check.yml/badge.svg)](https://github.com/ahcm088/antibodyome-atlas/actions/workflows/python-check.yml)
 [![Check dataset links](https://github.com/ahcm088/antibodyome-atlas/actions/workflows/check_links.yml/badge.svg)](https://github.com/ahcm088/antibodyome-atlas/actions/workflows/check_links.yml)
 
+**[Browse the atlas →](https://ahcm088.github.io/antibodyome-atlas/)** — a searchable, filterable front-end over the same data the R/Python clients read (once GitHub Pages is enabled for this repo — see below).
+
 ## Why this exists
 
 Autoantibody profiling data is scattered across general-purpose repositories that were never designed for it: a GEO series might bury a protein-array experiment among thousands of gene-expression studies, a paper's raw data might live only on a niche platform-vendor's own database, and plenty of studies never deposited their data anywhere at all — the numbers only ever existed in a supplementary PDF table. There is no central place to discover "what autoantibody array data exists for disease X", to know whether a link found last year is still alive, or to get a ready-to-cite reference for a dataset used in an analysis.
@@ -50,6 +52,7 @@ antibodyome-atlas/
 │                       tooling (all pure Python, see requirements.txt)
 ├── r-package/          the R client, AAbAtlas
 ├── python-package/     the Python client, aabatlas
+├── docs/                the browsable front-end (see below), served by GitHub Pages
 ├── .claude/skills/      the human-in-the-loop enrichment protocol used to
 │                       turn a curator's seed entry into a validated record
 ├── .github/workflows/  scheduled link checking + CI for both clients
@@ -93,6 +96,12 @@ aabatlas.download("AAB-000004")
 Both clients default to reading the latest curated data (`ref="main"`). Pass a release tag (e.g. `ref="v1.0.0"`) to pin the exact snapshot you analyzed, so your results stay reproducible even as the atlas keeps growing.
 
 Neither package is published to CRAN/PyPI yet — install directly from GitHub as shown above in the meantime.
+
+### Front-end
+
+Prefer browsing over code? [`docs/index.html`](docs/index.html) is a single static page — no build step, no framework — that fetches the same `metadata/*.json` files (via jsDelivr's GitHub CDN) and renders them as a searchable, filterable card grid: search by title/condition, filter by organism/record type/data availability, and a per-record link-health indicator sourced straight from `link_status.json`.
+
+It's served by GitHub Pages once enabled: **Settings → Pages → Source → Deploy from a branch → `main` / `docs`**. After that it's live at `https://ahcm088.github.io/antibodyome-atlas/` and rebuilds itself on every visit — there's nothing to redeploy when the data changes.
 
 ## Data model
 
@@ -140,6 +149,7 @@ Python package: `cd python-package && pip install -e ".[test]" && pytest`
 - [x] Human-in-the-loop enrichment pipeline for adding new datasets
 - [x] Automated weekly link checking with history
 - [x] R client (`AAbAtlas`) and Python client (`aabatlas`), both with passing CI
+- [x] Static browsable front-end (`docs/`) — needs GitHub Pages enabled in repo settings
 - [ ] Publish to CRAN / r-universe and PyPI
 
 ## License

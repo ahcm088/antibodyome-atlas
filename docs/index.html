@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>antibodyome-atlas</title>
+<meta name="description" content="A browsable, always-current catalog of autoantibody profiling datasets and papers.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f6f3ea;
+    --surface: #fffdf8;
+    --surface-2: #eee7d3;
+    --ink: #1b2340;
+    --ink-secondary: #55524a;
+    --ink-muted: #86806e;
+    --border: rgba(27, 35, 64, 0.14);
+    --border-strong: rgba(27, 35, 64, 0.28);
+    --accent: #a86c08;
+    --accent-ink: #ffffff;
+    --accent-soft: #f2dfad;
+    --shadow: 0 1px 2px rgba(27, 23, 12, 0.06), 0 6px 20px -8px rgba(27, 23, 12, 0.18);
+    --good: #0ca30c;
+    --warning: #b9790a;
+    --serious: #b45a2e;
+    --critical: #b23131;
+    --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+    --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page: #15130e;
+      --surface: #1f1c16;
+      --surface-2: #2a261c;
+      --ink: #f3efe2;
+      --ink-secondary: #c9c2ac;
+      --ink-muted: #948c78;
+      --border: rgba(243, 239, 226, 0.14);
+      --border-strong: rgba(243, 239, 226, 0.28);
+      --accent: #e3a53a;
+      --accent-ink: #1b1400;
+      --accent-soft: #3c2f14;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 24px -8px rgba(0, 0, 0, 0.5);
+      --good: #23c623;
+      --warning: #fab219;
+      --serious: #ec835a;
+      --critical: #e8605f;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #15130e;
+    --surface: #1f1c16;
+    --surface-2: #2a261c;
+    --ink: #f3efe2;
+    --ink-secondary: #c9c2ac;
+    --ink-muted: #948c78;
+    --border: rgba(243, 239, 226, 0.14);
+    --border-strong: rgba(243, 239, 226, 0.28);
+    --accent: #e3a53a;
+    --accent-ink: #1b1400;
+    --accent-soft: #3c2f14;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 24px -8px rgba(0, 0, 0, 0.5);
+    --good: #23c623;
+    --warning: #fab219;
+    --serious: #ec835a;
+    --critical: #e8605f;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; }
+  a { color: inherit; }
+  button { font-family: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  ::selection { background: var(--accent-soft); }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  }
+
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--page) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .masthead .wrap { display: flex; align-items: center; gap: 16px; height: 64px; }
+  .wordmark { font-family: var(--font-display); font-style: italic; font-size: 1.5rem; font-weight: 600; white-space: nowrap; }
+  .wordmark span { font-style: normal; color: var(--accent); }
+  .masthead nav { margin-left: auto; display: flex; align-items: center; gap: 4px; }
+  .nav-link {
+    text-decoration: none; font-size: 0.86rem; font-weight: 500; color: var(--ink-secondary);
+    padding: 8px 12px; border-radius: 7px;
+  }
+  .nav-link:hover { color: var(--ink); background: var(--surface-2); }
+  .icon-btn {
+    display: grid; place-items: center; width: 36px; height: 36px; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer;
+  }
+  .icon-btn:hover { border-color: var(--border-strong); }
+  .icon-btn svg { width: 17px; height: 17px; }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 44px 0 30px; }
+  .hero p.lede {
+    max-width: 62ch; color: var(--ink-secondary); font-size: 1.05rem; margin: 12px 0 0;
+  }
+  .eyebrow {
+    font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em;
+    font-size: 0.72rem; color: var(--accent); font-weight: 600;
+  }
+  h1.title { font-size: clamp(2rem, 4vw, 2.7rem); margin-top: 6px; }
+
+  .stat-row {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
+    background: var(--border); border: 1px solid var(--border); border-radius: 12px;
+    overflow: hidden; margin-top: 30px;
+  }
+  .stat-tile { background: var(--surface); padding: 16px 18px; }
+  .stat-tile .n {
+    font-family: var(--font-mono); font-size: 1.7rem; font-weight: 600;
+    font-variant-numeric: tabular-nums; display: block;
+  }
+  .stat-tile .l { font-size: 0.78rem; color: var(--ink-muted); margin-top: 2px; }
+
+  .organism-chart { margin-top: 22px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+  .organism-chart h2 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-muted); font-family: var(--font-body); font-weight: 600; }
+  .bar-row { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+  .bar-row .label { width: 150px; flex: 0 0 auto; font-size: 0.85rem; font-style: italic; color: var(--ink-secondary); text-align: right; }
+  .bar-track { flex: 1; height: 10px; background: var(--surface-2); border-radius: 5px; overflow: hidden; }
+  .bar-fill { height: 100%; background: var(--accent); border-radius: 5px; }
+  .bar-row .count { width: 34px; flex: 0 0 auto; font-family: var(--font-mono); font-size: 0.82rem; font-variant-numeric: tabular-nums; color: var(--ink-muted); }
+
+  /* ---------- filters ---------- */
+  .filters {
+    position: sticky; top: 64px; z-index: 15; background: var(--page);
+    border-bottom: 1px solid var(--border); padding: 14px 0;
+  }
+  .filters .wrap { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .search-box { position: relative; flex: 1 1 240px; min-width: 200px; }
+  .search-box svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; color: var(--ink-muted); }
+  .search-box input {
+    width: 100%; padding: 9px 12px 9px 34px; border-radius: 8px; border: 1px solid var(--border-strong);
+    background: var(--surface); color: var(--ink); font-size: 0.88rem; font-family: inherit;
+  }
+  select.filter-select {
+    padding: 9px 30px 9px 12px; border-radius: 8px; border: 1px solid var(--border-strong);
+    background: var(--surface) url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%226%22%3E%3Cpath d=%22M1 1l4 4 4-4%22 stroke=%22%2386806e%22 stroke-width=%221.4%22 fill=%22none%22/%3E%3C/svg%3E') no-repeat right 12px center;
+    color: var(--ink); font-size: 0.86rem; font-family: inherit; appearance: none; cursor: pointer;
+  }
+  .result-count { padding: 16px 0 4px; font-size: 0.85rem; color: var(--ink-muted); font-family: var(--font-mono); }
+
+  /* ---------- cards ---------- */
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; padding: 8px 0 60px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px 20px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px;
+  }
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+  .atlas-id { font-family: var(--font-mono); font-size: 0.76rem; color: var(--ink-muted); letter-spacing: 0.02em; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 5px; font-size: 0.72rem; font-weight: 600;
+    padding: 3px 9px; border-radius: 999px; white-space: nowrap;
+  }
+  .badge.type-dataset { background: var(--surface-2); color: var(--ink-secondary); }
+  .badge.type-paper { background: var(--surface-2); color: var(--ink-secondary); }
+  .badge::before { content: ""; width: 6px; height: 6px; border-radius: 999px; background: currentColor; }
+  .badge.status-good { color: var(--good); background: color-mix(in srgb, var(--good) 14%, var(--surface)); }
+  .badge.status-warning { color: var(--warning); background: color-mix(in srgb, var(--warning) 16%, var(--surface)); }
+  .badge.status-serious { color: var(--serious); background: color-mix(in srgb, var(--serious) 16%, var(--surface)); }
+  .badge.status-critical { color: var(--critical); background: color-mix(in srgb, var(--critical) 14%, var(--surface)); }
+  .badge.status-muted { color: var(--ink-muted); background: var(--surface-2); }
+
+  .card h3 { font-size: 1.08rem; line-height: 1.35; font-weight: 500; }
+  .card .meta-line { font-size: 0.82rem; color: var(--ink-secondary); }
+  .card .meta-line b { color: var(--ink); font-weight: 600; }
+
+  .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    font-size: 0.74rem; padding: 3px 9px; border-radius: 999px; background: var(--surface-2);
+    color: var(--ink-secondary); white-space: nowrap;
+  }
+  .chip-more { color: var(--ink-muted); font-style: italic; }
+
+  details.summary-box { font-size: 0.86rem; color: var(--ink-secondary); }
+  details.summary-box summary {
+    cursor: pointer; color: var(--accent); font-weight: 600; font-size: 0.8rem; list-style: none;
+  }
+  details.summary-box summary::-webkit-details-marker { display: none; }
+  details.summary-box summary::before { content: "+ "; }
+  details.summary-box[open] summary::before { content: "− "; }
+  details.summary-box p { margin: 8px 0 0; max-height: 220px; overflow-y: auto; padding-right: 4px; }
+
+  .card-footer { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+  .link-health { font-size: 0.72rem; display: flex; align-items: center; gap: 5px; color: var(--ink-muted); }
+  .link-health .dot { width: 7px; height: 7px; border-radius: 999px; background: currentColor; flex: none; }
+  .link-health.good { color: var(--good); }
+  .link-health.serious { color: var(--serious); }
+  .link-health.critical { color: var(--critical); }
+
+  .card-actions { display: flex; gap: 6px; }
+  .btn {
+    font-size: 0.76rem; font-weight: 600; padding: 6px 11px; border-radius: 7px; border: 1px solid var(--border-strong);
+    background: var(--surface); color: var(--ink); cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .btn.primary:hover { opacity: 0.9; color: var(--accent-ink); }
+
+  .empty-state { text-align: center; padding: 70px 20px; color: var(--ink-muted); }
+  .empty-state .big { font-family: var(--font-display); font-style: italic; font-size: 1.3rem; color: var(--ink-secondary); }
+
+  footer { border-top: 1px solid var(--border); padding: 34px 0 50px; }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; font-size: 0.82rem; color: var(--ink-muted); }
+  footer a { color: var(--ink-secondary); text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px; }
+  footer a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+  footer .links { display: flex; gap: 18px; flex-wrap: wrap; }
+
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="wordmark">antibodyome<span>·atlas</span></div>
+    <nav>
+      <a class="nav-link" href="https://github.com/ahcm088/antibodyome-atlas" target="_blank" rel="noopener">GitHub</a>
+      <a class="nav-link" href="https://github.com/ahcm088/antibodyome-atlas/tree/main/r-package" target="_blank" rel="noopener">R</a>
+      <a class="nav-link" href="https://github.com/ahcm088/antibodyome-atlas/tree/main/python-package" target="_blank" rel="noopener">Python</a>
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Curated catalog · updated automatically</div>
+    <h1 class="title">Every autoantibody profiling dataset we could find, in one place.</h1>
+    <p class="lede">Protein and antigen microarray studies pulled from GEO, ArrayExpress, HuProt, and the primary literature — with links checked weekly so you know what's still there before you spend an afternoon chasing a dead accession.</p>
+
+    <div class="stat-row" id="statRow" aria-live="polite">
+      <div class="stat-tile"><span class="n">—</span><span class="l">datasets &amp; papers</span></div>
+      <div class="stat-tile"><span class="n">—</span><span class="l">publications cited</span></div>
+      <div class="stat-tile"><span class="n">—</span><span class="l">assay platforms</span></div>
+      <div class="stat-tile"><span class="n">—</span><span class="l">organisms covered</span></div>
+    </div>
+
+    <div class="organism-chart">
+      <h2>Datasets by organism</h2>
+      <div id="organismChart"></div>
+    </div>
+  </div>
+</section>
+
+<div class="filters">
+  <div class="wrap">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="search" id="q" placeholder="Search title, summary, or condition…" autocomplete="off">
+    </div>
+    <select class="filter-select" id="fOrganism"><option value="all">All organisms</option></select>
+    <select class="filter-select" id="fType">
+      <option value="all">Datasets &amp; papers</option>
+      <option value="DATASET">Datasets only</option>
+      <option value="PAPER">Papers only</option>
+    </select>
+    <select class="filter-select" id="fStatus">
+      <option value="all">Any availability</option>
+      <option value="available">Data available</option>
+      <option value="upon_request">Upon request</option>
+      <option value="unavailable">Not available</option>
+      <option value="unknown">Unknown</option>
+    </select>
+    <select class="filter-select" id="fSort">
+      <option value="atlas_id">Sort: Atlas ID</option>
+      <option value="n_desc">Sort: Largest cohort first</option>
+      <option value="title">Sort: Title A–Z</option>
+    </select>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="result-count" id="resultCount">Loading the atlas…</div>
+  <div class="card-grid" id="cardGrid"></div>
+  <div class="empty-state" id="emptyState" hidden>
+    <div class="big">No matches.</div>
+    <p>Try clearing a filter — or the search box.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>
+      Data lives as version-controlled JSON in the <a href="https://github.com/ahcm088/antibodyome-atlas" target="_blank" rel="noopener">antibodyome-atlas</a> repository — no server behind this page, just <code style="font-family: var(--font-mono)">fetch()</code> against the same files the R and Python clients read.
+    </div>
+    <div class="links">
+      <a href="https://github.com/ahcm088/antibodyome-atlas/blob/main/schema/README.md" target="_blank" rel="noopener">Data model</a>
+      <a href="https://github.com/ahcm088/antibodyome-atlas/blob/main/metadata/seeds_template.csv" target="_blank" rel="noopener">Add a dataset</a>
+      <a href="https://github.com/ahcm088/antibodyome-atlas/actions/workflows/check_links.yml" target="_blank" rel="noopener">Link-check history</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  var DATA_BASE = "https://cdn.jsdelivr.net/gh/ahcm088/antibodyome-atlas@main/metadata";
+  var STATUS_META = {
+    available:    { cls: "good",     label: "Data available" },
+    upon_request: { cls: "warning",  label: "Upon request" },
+    unavailable:  { cls: "critical", label: "Not available" },
+    unknown:      { cls: "muted",    label: "Unknown" }
+  };
+
+  var state = { datasets: [], pubById: {}, platformById: {}, linkByAtlasId: {} };
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function fetchJSON(name) {
+    return fetch(DATA_BASE + "/" + name + ".json").then(function (r) {
+      if (!r.ok) throw new Error(name + " failed: " + r.status);
+      return r.json();
+    });
+  }
+
+  // ---------- theme ----------
+  var root = document.documentElement;
+  var themeToggle = document.getElementById("themeToggle");
+  var stored = null;
+  try { stored = localStorage.getItem("aab-theme"); } catch (e) {}
+  if (stored) root.setAttribute("data-theme", stored);
+
+  function currentTheme() {
+    return root.getAttribute("data-theme") ||
+      (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  }
+  themeToggle.addEventListener("click", function () {
+    var next = currentTheme() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("aab-theme", next); } catch (e) {}
+  });
+
+  // ---------- load ----------
+  Promise.all([
+    fetchJSON("datasets"), fetchJSON("publications"), fetchJSON("platforms"), fetchJSON("link_status")
+  ]).then(function (results) {
+    var datasets = results[0], publications = results[1], platforms = results[2], linkStatus = results[3];
+
+    publications.forEach(function (p) { state.pubById[p.publication_id] = p; });
+    platforms.forEach(function (p) { state.platformById[p.platform_id] = p; });
+    linkStatus.forEach(function (r) {
+      var prev = state.linkByAtlasId[r.atlas_id];
+      if (!prev || r.checked_at > prev.checked_at) state.linkByAtlasId[r.atlas_id] = r;
+    });
+    state.datasets = datasets;
+    state.publications = publications;
+    state.platforms = platforms;
+
+    renderStats();
+    renderOrganismChart();
+    populateOrganismFilter();
+    applyFilters();
+
+    ["q", "fOrganism", "fType", "fStatus", "fSort"].forEach(function (id) {
+      document.getElementById(id).addEventListener("input", applyFilters);
+    });
+  }).catch(function (err) {
+    document.getElementById("resultCount").textContent =
+      "Couldn't load the atlas data (" + err.message + "). Try refreshing — jsDelivr's GitHub cache updates within a few minutes of a new commit.";
+  });
+
+  function renderStats() {
+    var orgs = {};
+    state.datasets.forEach(function (d) { (d.organism || []).forEach(function (o) { orgs[o] = true; }); });
+    var vals = [state.datasets.length, state.publications.length, state.platforms.length, Object.keys(orgs).length];
+    document.querySelectorAll("#statRow .n").forEach(function (el, i) { el.textContent = vals[i].toLocaleString(); });
+  }
+
+  function renderOrganismChart() {
+    var counts = {};
+    state.datasets.forEach(function (d) { (d.organism || []).forEach(function (o) { counts[o] = (counts[o] || 0) + 1; }); });
+    var rows = Object.keys(counts).map(function (k) { return [k, counts[k]]; }).sort(function (a, b) { return b[1] - a[1]; });
+    var max = rows.length ? rows[0][1] : 1;
+    var html = rows.map(function (r) {
+      var pct = Math.max(4, Math.round((r[1] / max) * 100));
+      return '<div class="bar-row"><div class="label">' + esc(r[0]) + '</div>' +
+        '<div class="bar-track"><div class="bar-fill" style="width:' + pct + '%"></div></div>' +
+        '<div class="count">' + r[1] + '</div></div>';
+    }).join("");
+    document.getElementById("organismChart").innerHTML = html;
+  }
+
+  function populateOrganismFilter() {
+    var counts = {};
+    state.datasets.forEach(function (d) { (d.organism || []).forEach(function (o) { counts[o] = (counts[o] || 0) + 1; }); });
+    var sel = document.getElementById("fOrganism");
+    Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; }).forEach(function (o) {
+      var opt = document.createElement("option");
+      opt.value = o; opt.textContent = o + " (" + counts[o] + ")";
+      sel.appendChild(opt);
+    });
+  }
+
+  function linkHealth(atlasId) {
+    var entry = state.linkByAtlasId[atlasId];
+    if (!entry) return null;
+    if (entry.reachable) return { cls: "good", label: "Link OK" };
+    if (entry.likely_bot_blocked) return { cls: "serious", label: "Blocked by publisher" };
+    return { cls: "critical", label: "Link unreachable" };
+  }
+
+  function buildCard(d) {
+    var status = STATUS_META[d.curated_availability.data_status] || STATUS_META.unknown;
+    var pub = d.publication_id ? state.pubById[d.publication_id] : null;
+    var platformNames = (d.platforms || []).map(function (p) {
+      var pl = state.platformById[p.platform_id];
+      return pl ? pl.name : p.platform_id;
+    }).join("; ");
+
+    var conditions = d.conditions || [];
+    var condChips = conditions.slice(0, 3).map(function (c) {
+      return '<span class="chip">' + esc(c.name) + (c.n ? " · n=" + c.n : "") + "</span>";
+    }).join("");
+    if (conditions.length > 3) condChips += '<span class="chip chip-more">+' + (conditions.length - 3) + " more</span>";
+
+    var health = linkHealth(d.atlas_id);
+    var healthHtml = health
+      ? '<span class="link-health ' + health.cls + '"><span class="dot"></span>' + health.label + "</span>"
+      : '<span class="link-health">Not yet checked</span>';
+
+    var citeBtn = pub
+      ? '<button class="btn btn-copy" data-citation="' + esc(pub.citation) + '">Copy citation</button>'
+      : "";
+
+    var summaryHtml = d.summary
+      ? '<details class="summary-box"><summary>Summary</summary><p>' + esc(d.summary).slice(0, 1200) + "</p></details>"
+      : "";
+
+    return (
+      '<article class="card">' +
+        '<div class="card-top">' +
+          '<span class="atlas-id">' + d.atlas_id + "</span>" +
+          '<span class="badge status-' + status.cls + '">' + status.label + "</span>" +
+        "</div>" +
+        "<h3>" + esc(d.title) + "</h3>" +
+        '<div class="meta-line"><b>' + (d.organism || []).join(", ") + "</b>" +
+          (d.total_sample_n ? " · n=" + d.total_sample_n : "") +
+          (platformNames ? " · " + esc(platformNames) : "") +
+        "</div>" +
+        (condChips ? '<div class="chip-row">' + condChips + "</div>" : "") +
+        summaryHtml +
+        '<div class="card-footer">' +
+          healthHtml +
+          '<div class="card-actions">' +
+            citeBtn +
+            '<a class="btn primary" href="' + esc(d.dataset_link) + '" target="_blank" rel="noopener">View source ↗</a>' +
+          "</div>" +
+        "</div>" +
+      "</article>"
+    );
+  }
+
+  function applyFilters() {
+    var q = document.getElementById("q").value.trim().toLowerCase();
+    var organism = document.getElementById("fOrganism").value;
+    var type = document.getElementById("fType").value;
+    var status = document.getElementById("fStatus").value;
+    var sort = document.getElementById("fSort").value;
+
+    var rows = state.datasets.filter(function (d) {
+      if (organism !== "all" && (d.organism || []).indexOf(organism) === -1) return false;
+      if (type !== "all" && d.record_type !== type) return false;
+      if (status !== "all" && d.curated_availability.data_status !== status) return false;
+      if (q) {
+        var hay = (d.title + " " + (d.summary || "") + " " + (d.conditions || []).map(function (c) { return c.name; }).join(" ")).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+
+    if (sort === "n_desc") rows.sort(function (a, b) { return (b.total_sample_n || 0) - (a.total_sample_n || 0); });
+    else if (sort === "title") rows.sort(function (a, b) { return a.title.localeCompare(b.title); });
+    else rows.sort(function (a, b) { return a.atlas_id.localeCompare(b.atlas_id); });
+
+    document.getElementById("resultCount").textContent = "Showing " + rows.length.toLocaleString() + " of " + state.datasets.length.toLocaleString() + " records";
+    document.getElementById("cardGrid").innerHTML = rows.map(buildCard).join("");
+    document.getElementById("emptyState").hidden = rows.length !== 0;
+  }
+
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest(".btn-copy");
+    if (!btn) return;
+    var text = btn.getAttribute("data-citation");
+    navigator.clipboard.writeText(text).then(function () {
+      var original = btn.textContent;
+      btn.textContent = "Copied";
+      setTimeout(function () { btn.textContent = original; }, 1400);
+    });
+  });
+})();
+</script>
+</body>
+</html>
