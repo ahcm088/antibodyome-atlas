@@ -4,10 +4,8 @@ Python client for the [antibodyome-atlas](https://github.com/ahcm088/antibodyome
 
 ## Install
 
-Not yet on PyPI. Until then, install from GitHub:
-
 ```bash
-pip install "git+https://github.com/ahcm088/antibodyome-atlas.git#subdirectory=python-package"
+pip install aabatlas
 ```
 
 ## Usage

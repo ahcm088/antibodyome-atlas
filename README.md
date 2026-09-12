@@ -81,7 +81,7 @@ aab_download("AAB-000004")
 ### Python
 
 ```bash
-pip install "git+https://github.com/ahcm088/antibodyome-atlas.git#subdirectory=python-package"
+pip install aabatlas
 ```
 
 ```python
@@ -95,7 +95,7 @@ aabatlas.download("AAB-000004")
 
 Both clients default to reading the latest curated data (`ref="main"`). Pass a release tag (e.g. `ref="v1.0.0"`) to pin the exact snapshot you analyzed, so your results stay reproducible even as the atlas keeps growing.
 
-Neither package is published to CRAN/PyPI yet — install directly from GitHub as shown above in the meantime.
+`aabatlas` is on PyPI. `AAbAtlas` is pending its first r-universe build — until then, install it from GitHub: `pak::pak("ahcm088/antibodyome-atlas/r-package")`.
 
 ### Front-end
 
@@ -150,8 +150,8 @@ Python package: `cd python-package && pip install -e ".[test]" && pytest`
 - [x] Automated weekly link checking with history
 - [x] R client (`AAbAtlas`) and Python client (`aabatlas`), both with passing CI
 - [x] Static browsable front-end (`docs/`) — needs GitHub Pages enabled in repo settings
-- [ ] Publish `AAbAtlas` to r-universe (registry repo + GitHub App install pending)
-- [ ] Publish `aabatlas` to PyPI (trusted publisher configured, first release tag pending)
+- [ ] Publish `AAbAtlas` to r-universe (registry repo + GitHub App installed, waiting on first build)
+- [x] Publish `aabatlas` to PyPI — [live as of v0.1.0](https://pypi.org/project/aabatlas/)
 
 ## License
 
