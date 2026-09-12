@@ -4,7 +4,11 @@ R client for the [antibodyome-atlas](https://github.com/ahcm088/antibodyome-atla
 
 ## Install
 
-Not yet on CRAN/r-universe. Until then, install from GitHub:
+```r
+install.packages("AAbAtlas", repos = "https://ahcm088.r-universe.dev")
+```
+
+r-universe rebuilds automatically on every change to this package, so this always tracks the latest source. Not yet on CRAN. To install straight from a specific commit/branch instead:
 
 ```r
 # install.packages("pak")
