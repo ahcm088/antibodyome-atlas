@@ -196,6 +196,10 @@
   footer .links { display: flex; gap: 16px; flex-wrap: wrap; }
 
   .table-scroll { overflow-x: auto; }
+  .pagination { display: flex; align-items: center; justify-content: center; gap: 14px; padding: 18px 0 30px; }
+  .pagination .page-indicator { font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-muted); }
+  .pagination .btn:disabled { opacity: 0.35; cursor: default; }
+  .pagination .btn:disabled:hover { border-color: var(--border-strong); color: var(--ink); }
   [hidden] { display: none !important; }
 </style>
 </head>
@@ -278,6 +282,9 @@
     <p>Try clearing a filter or the search box.</p>
   </div>
 </div>
+<div class="wrap">
+  <div class="pagination" id="pagination"></div>
+</div>
 
 <footer>
   <div class="wrap">
@@ -307,6 +314,8 @@
   var state = { datasets: [], pubById: {}, platformById: {}, linkByAtlasId: {} };
   var sortState = { key: "atlas_id", dir: 1 };
   var openId = null;
+  var PAGE_SIZE = 25;
+  var currentPage = 1;
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -360,15 +369,23 @@
     render();
 
     ["q", "fOrganism", "fType", "fStatus"].forEach(function (id) {
-      document.getElementById(id).addEventListener("input", render);
+      document.getElementById(id).addEventListener("input", function () { currentPage = 1; render(); });
     });
     document.querySelectorAll("th[data-sort]").forEach(function (th) {
       th.addEventListener("click", function () {
         var key = th.getAttribute("data-sort");
         sortState.dir = sortState.key === key ? -sortState.dir : 1;
         sortState.key = key;
+        currentPage = 1;
         render();
       });
+    });
+    document.getElementById("pagination").addEventListener("click", function (e) {
+      var btn = e.target.closest("button[data-page]");
+      if (!btn || btn.disabled) return;
+      currentPage = btn.getAttribute("data-page") === "prev" ? currentPage - 1 : currentPage + 1;
+      render();
+      document.getElementById("resultsTable").scrollIntoView({ block: "start", behavior: "smooth" });
     });
   }).catch(function (err) {
     document.getElementById("resultCount").textContent = "Load failed: " + err.message;
@@ -505,9 +522,25 @@
       el.textContent = th.getAttribute("data-sort") === sortState.key ? (sortState.dir === 1 ? "▲" : "▼") : "";
     });
 
-    document.getElementById("resultCount").textContent = rows.length.toLocaleString() + " / " + state.datasets.length.toLocaleString();
-    document.getElementById("tbody").innerHTML = rows.map(buildRow).join("");
+    var totalPages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+    currentPage = Math.min(Math.max(1, currentPage), totalPages);
+    var start = (currentPage - 1) * PAGE_SIZE;
+    var pageRows = rows.slice(start, start + PAGE_SIZE);
+
+    document.getElementById("resultCount").textContent =
+      rows.length ? (start + 1) + "–" + Math.min(start + PAGE_SIZE, rows.length) + " / " + rows.length.toLocaleString() : "0 / 0";
+    document.getElementById("tbody").innerHTML = pageRows.map(buildRow).join("");
     document.getElementById("emptyState").hidden = rows.length !== 0;
+    renderPagination(totalPages);
+  }
+
+  function renderPagination(totalPages) {
+    var el = document.getElementById("pagination");
+    if (totalPages <= 1) { el.innerHTML = ""; return; }
+    el.innerHTML =
+      '<button class="btn" data-page="prev"' + (currentPage === 1 ? " disabled" : "") + '>← Prev</button>' +
+      '<span class="page-indicator">Page ' + currentPage + ' / ' + totalPages + '</span>' +
+      '<button class="btn" data-page="next"' + (currentPage === totalPages ? " disabled" : "") + '>Next →</button>';
   }
 
   document.getElementById("tbody").addEventListener("click", function (e) {
