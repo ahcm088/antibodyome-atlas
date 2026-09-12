@@ -1,0 +1,33 @@
+name: Python check (aabatlas)
+
+on:
+  push:
+    paths:
+      - "python-package/**"
+      - ".github/workflows/python-check.yml"
+  pull_request:
+    paths:
+      - "python-package/**"
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - run: pip install -e ".[test]"
+        working-directory: python-package
+
+      - run: pytest -v
+        working-directory: python-package
+
+      - run: pip install build && python -m build
+        working-directory: python-package

@@ -3,6 +3,10 @@ data/
 # Python
 __pycache__/
 *.pyc
+*.egg-info/
+/python-package/dist/
+/python-package/build/
+.pytest_cache/
 
 # R
 .Rhistory
