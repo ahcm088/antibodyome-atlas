@@ -1,0 +1,25 @@
+Package: AAbAtlas
+Type: Package
+Title: Access the Antibodyome Atlas of Autoantibody Profiling Datasets
+Version: 0.1.0
+Authors@R: person("Alexandre", "Marques", email = "marquesufcg@gmail.com", role = c("aut", "cre"))
+Description: Client for the antibodyome-atlas, a curated catalog of
+    autoantibody profiling datasets and papers (protein/antigen microarrays
+    and related platforms) drawn from public repositories such as GEO and
+    ArrayExpress. Metadata is fetched live from the atlas's GitHub-hosted
+    JSON manifest, so results always reflect the latest curated data (or a
+    pinned release, for reproducibility). Provides functions to list and
+    filter datasets, resolve citations and related records, and download
+    the underlying data files.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports:
+    httr2,
+    jsonlite,
+    tibble
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/ahcm088/antibodyome-atlas
+BugReports: https://github.com/ahcm088/antibodyome-atlas/issues

@@ -1,0 +1,687 @@
+[
+  {
+    "platform_id": "384-prest-microarray",
+    "name": "384-PrEST microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "42-100-prest-microarray",
+    "name": "42,100-PrEST microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "abc-elte-human-156-v1",
+    "name": "AbC_ELTE_human_156_v1",
+    "technology": null
+  },
+  {
+    "platform_id": "antigen-microarray",
+    "name": "antigen microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "asu-random-sequence-peptide-microarray",
+    "name": "ASU_random-sequence peptide microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "austrain-institution-of-technology-protein-array-642",
+    "name": "Austrain Institution of Technology Protein Array 642",
+    "technology": null
+  },
+  {
+    "platform_id": "austrian-institute-of-technology-16k-protein-microarray",
+    "name": "Austrian Institute of Technology 16k protein-microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "autoantigen-and-cytokine-protein-microarray",
+    "name": "Autoantigen and Cytokine Protein Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "autoantigen-and-cytokine-protein-microarray-ii",
+    "name": "Autoantigen and Cytokine Protein Microarray II",
+    "technology": null
+  },
+  {
+    "platform_id": "autoantigen-microarray",
+    "name": "autoantigen microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "autoantigen-microarray-panel-i",
+    "name": "Autoantigen Microarray Panel I",
+    "technology": null
+  },
+  {
+    "platform_id": "bcbio-human-custom-proteome-microarray",
+    "name": "BCBIO Human Custom Proteome Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "bead-based-custom-synovial-antigen-array-stanford-robinson-lab-v1-0",
+    "name": "Bead-based custom synovial antigen array_Stanford_Robinson Lab_v1.0",
+    "technology": null
+  },
+  {
+    "platform_id": "bead-based-gst-capture-immunosorbent-assay",
+    "name": "bead-based GST capture immunosorbent assay",
+    "technology": null
+  },
+  {
+    "platform_id": "bead-based-microarray",
+    "name": "Bead-Based Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "bio-plex-pro-human-cytokine-and-chemokine-assays-stanford-robinson-lab-v1-0",
+    "name": "Bio-Plex Pro Human Cytokine and Chemokine Assays_Stanford_Robinson Lab_v1.0",
+    "technology": null
+  },
+  {
+    "platform_id": "cdi-laboratories-custom-array",
+    "name": "CDI laboratories custom array",
+    "technology": null
+  },
+  {
+    "platform_id": "celluspots-custom-peptide-arrays",
+    "name": "CelluSpots™ - Custom Peptide Arrays",
+    "technology": null
+  },
+  {
+    "platform_id": "custom-bcbio-protein-microarray",
+    "name": "Custom BCBio protein Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "custom-designed-phip-seq",
+    "name": "custom-designed PhIP-seq",
+    "technology": null
+  },
+  {
+    "platform_id": "custom-pepperchip-peptide-microarray",
+    "name": "Custom PEPperCHIP Peptide Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "custom-protein-microarray",
+    "name": "custom protein microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "cytokine-rolling-circle-amplification-microarrays",
+    "name": "Cytokine Rolling Circle Amplification Microarrays",
+    "technology": null
+  },
+  {
+    "platform_id": "earlycdt-lung",
+    "name": "EarlyCDT®-Lung",
+    "technology": null
+  },
+  {
+    "platform_id": "elisa",
+    "name": "ELISA",
+    "technology": null
+  },
+  {
+    "platform_id": "elisa-miniarray",
+    "name": "ELISA miniarray",
+    "technology": null
+  },
+  {
+    "platform_id": "giant-magnetoresistive-biosensor-microarray",
+    "name": "giant magnetoresistive biosensor microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "hex1-imagenes",
+    "name": "hEx1 imaGenes",
+    "technology": null
+  },
+  {
+    "platform_id": "human-autoantigen-microarray-microarray-immune-phenotyping-core-facility-ut-southwestern-medical-center",
+    "name": "Human Autoantigen Microarray [Microarray & Immune Phenotyping Core Facility - UT Southwestern Medical Center]",
+    "technology": null
+  },
+  {
+    "platform_id": "human-epigenome-microarray-platform-v1-0",
+    "name": "Human Epigenome Microarray Platform V1.0",
+    "technology": null
+  },
+  {
+    "platform_id": "human-genome-phip-seq",
+    "name": "human genome PhIP-seq",
+    "technology": null
+  },
+  {
+    "platform_id": "human-protein-microarray",
+    "name": "Human Protein Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "human-proteome-microarray-focused-autoantigen-array",
+    "name": "Human proteome microarray; focused autoantigen array",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot",
+    "name": "HuProt",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-human-proteome-microarray",
+    "name": "HuProt™ Human Proteome Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-human-proteome-microarray-v2",
+    "name": "HuProt™ Human Proteome Microarray v2",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-human-proteome-microarray-v2-0",
+    "name": "HuProt™ Human Proteome Microarray v2.0",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-human-proteome-microarray-v3",
+    "name": "HuProt™ Human Proteome Microarray v3",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-human-proteome-microarray-v3-0",
+    "name": "HuProt™ Human Proteome Microarray v3.0",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-human-proteome-microarray-v3-1",
+    "name": "HuProt™ Human Proteome Microarray v3.1",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-human-proteome-microarray-v3-2",
+    "name": "HuProt™ Human Proteome Microarray v3.2",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-human-proteome-microarray-v4-0",
+    "name": "HuProt™ Human Proteome Microarray v4.0",
+    "technology": null
+  },
+  {
+    "platform_id": "huprot-v-3-1",
+    "name": "HuProt v.3.1",
+    "technology": null
+  },
+  {
+    "platform_id": "illumina-genome-analyzer",
+    "name": "Illumina Genome Analyzer",
+    "technology": null
+  },
+  {
+    "platform_id": "illumina-genome-analyzer-iix",
+    "name": "Illumina Genome Analyzer IIx",
+    "technology": null
+  },
+  {
+    "platform_id": "immunoprecipitation-coupled-to-lc-ms-ms",
+    "name": "immunoprecipitation coupled to LC-MS/MS",
+    "technology": null
+  },
+  {
+    "platform_id": "in-house",
+    "name": "in-house",
+    "technology": null
+  },
+  {
+    "platform_id": "in-house-antigen-bead-array",
+    "name": "in-house antigen bead array",
+    "technology": null
+  },
+  {
+    "platform_id": "in-house-high-density-planar-antigen-array",
+    "name": "in-house high density planar antigen array",
+    "technology": null
+  },
+  {
+    "platform_id": "in-house-human-protein-microarray",
+    "name": "in-house human protein microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "in-house-human-proteome-microarray",
+    "name": "in-house human proteome microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "in-house-planar-protein-microarrays",
+    "name": "in-house planar protein microarrays",
+    "technology": null
+  },
+  {
+    "platform_id": "intel-array-v2",
+    "name": "Intel array v2",
+    "technology": null
+  },
+  {
+    "platform_id": "invitrogen-protoarray-custom",
+    "name": "Invitrogen ProtoArray custom",
+    "technology": null
+  },
+  {
+    "platform_id": "invitrogen-protoarray-v3-0",
+    "name": "Invitrogen ProtoArray v3.0",
+    "technology": null
+  },
+  {
+    "platform_id": "invitrogen-protoarray-v4",
+    "name": "Invitrogen ProtoArray v4",
+    "technology": null
+  },
+  {
+    "platform_id": "invitrogen-protoarray-v4-0",
+    "name": "Invitrogen ProtoArray v4.0",
+    "technology": null
+  },
+  {
+    "platform_id": "invitrogen-protoarray-v5-0",
+    "name": "Invitrogen ProtoArray v5.0",
+    "technology": null
+  },
+  {
+    "platform_id": "invitrogen-protoarray-v5-0-huprot-human-proteome-microarray-v3-0",
+    "name": "Invitrogen ProtoArray v5.0 \\\nHuProt™ Human Proteome Microarray v3.0",
+    "technology": null
+  },
+  {
+    "platform_id": "invitrogen-protoarray-v5-1",
+    "name": "Invitrogen ProtoArray v5.1",
+    "technology": null
+  },
+  {
+    "platform_id": "jhuhit-human-17k-v2009",
+    "name": "JHUHIT Human 17K v2009",
+    "technology": null
+  },
+  {
+    "platform_id": "lampe-lab-custom-antibody-array-sa10",
+    "name": "Lampe Lab Custom Antibody Array [SA10]",
+    "technology": null
+  },
+  {
+    "platform_id": "lampe-lab-custom-antibody-array-sa4-lampe-lab-custom-antibody-array-sa7-lampe-lab-custom-antibody-array-sa9-lampe-lab-custom-antibody-array-sa10",
+    "name": "Lampe Lab Custom Antibody Array [SA4]\nLampe Lab Custom Antibody Array [SA7]\nLampe Lab Custom Antibody Array [SA9]\nLampe Lab Custom Antibody Array [SA10]",
+    "technology": null
+  },
+  {
+    "platform_id": "low-density-focused-microarray",
+    "name": "low-density focused microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "modified-protein-microarray",
+    "name": "modified protein microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "mouse-autoantigen-microarray-microarray-immune-phenotyping-core-facility-ut-southwestern-medical-center",
+    "name": "Mouse Autoantigen Microarray [Microarray & Immune Phenotyping Core Facility - UT Southwestern Medical Center]",
+    "technology": null
+  },
+  {
+    "platform_id": "multi-species-autoantigen-microarray-94",
+    "name": "Multi-species Autoantigen Microarray 94",
+    "technology": null
+  },
+  {
+    "platform_id": "nappa",
+    "name": "NAPPA",
+    "technology": null
+  },
+  {
+    "platform_id": "nimblegen-150402-uniprot-16mer-v2-pep-px1",
+    "name": "Nimblegen 150402_UniProt_16mer_v2_PEP_PX1",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array",
+    "name": "nucleic acid programmable protein array",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA)",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-flag",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-FLAG",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-gst1",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-GST1",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-gst1-nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-gst2-nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-gst3-nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-gst4-nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-flag",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-GST1\nNucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-GST2\nNucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-GST3\nNucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-GST4\nNucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-FLAG",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-gst2",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-GST2",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-gst3",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-GST3",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-blbc-discovery-array-gst4",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) BLBC discovery array-GST4",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-gst1-nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-gst2-nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-gst3-nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-gst4-nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-flag",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - GST1; Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - GST2; Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - GST3; Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - GST4; Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - FLAG",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-gst1-nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-gst2-nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-gst3-nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-gst4-nucleic-acid-programmable-protein-array-nappa-serous-ovarian-discovery-array-flag-nucleic-acid-programmable-protein-arrays-nappa-serous-ovarian-discovery-array-validation-array",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - GST1; Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - GST2; Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - GST3; Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - GST4; Nucleic Acid Programmable Protein Array (NAPPA) Serous Ovarian Discovery Array - FLAG; Nucleic Acid Programmable Protein Arrays (NAPPA) Serous Ovarian Discovery Array - Validation Array",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-array-nappa-somatic-p53-mutations",
+    "name": "Nucleic Acid Programmable Protein Array (NAPPA) Somatic p53 Mutations",
+    "technology": null
+  },
+  {
+    "platform_id": "nucleic-acid-programmable-protein-arrays-nappa-serous-ovarian-discovery-array-validation-array",
+    "name": "Nucleic Acid Programmable Protein Arrays (NAPPA) Serous Ovarian Discovery Array - Validation Array",
+    "technology": null
+  },
+  {
+    "platform_id": "pepperchip-autoimmunity-microarray",
+    "name": "PEPperCHIP Autoimmunity Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "pepperchip-autoimmunity-microarray-2-0",
+    "name": "PEPperCHIP Autoimmunity Microarray 2.0",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq",
+    "name": "PhIP-seq",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-ais-nor-proteins",
+    "name": "PhIP-seq - AIS/NoR proteins",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-complete-human-proteome-t7-peptidome-library",
+    "name": "PhIP-seq - complete human proteome, T7 peptidome library",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-human-proteins-associated-with-autoimmune-disorders",
+    "name": "PhIP-seq - human proteins associated with autoimmune disorders",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-m13-phage-display-library",
+    "name": "PhIP-seq - M13 phage display library",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-murine-proteome-wide-library",
+    "name": "PhIP-seq murine proteome-wide library",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-sars-cov-2-library",
+    "name": "PhIP-seq - SARS-CoV-2 library",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-t7-human-orf-90mer-library",
+    "name": "PhIP-seq - T7 Human ORF 90mer library",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-t7-peptidome-phage-display-library",
+    "name": "PhIP-seq - T7 peptidome phage display library",
+    "technology": null
+  },
+  {
+    "platform_id": "phip-seq-whole-human-proteome",
+    "name": "PhIP-seq - whole human proteome",
+    "technology": null
+  },
+  {
+    "platform_id": "planar-antigen-microarray",
+    "name": "planar antigen microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "plasmonic-gold-chip",
+    "name": "Plasmonic Gold Chip",
+    "technology": null
+  },
+  {
+    "platform_id": "plasmonic-gold-microarray",
+    "name": "plasmonic gold microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "post-translational-modifications-phip-seq",
+    "name": "Post-translational modifications PhIP-Seq",
+    "technology": null
+  },
+  {
+    "platform_id": "prest-bead-arrays",
+    "name": "PrEST bead arrays",
+    "technology": null
+  },
+  {
+    "platform_id": "protoarray-custom-service",
+    "name": "ProtoArray Custom Service",
+    "technology": null
+  },
+  {
+    "platform_id": "protoarray-human-protein-microarray-v3-0",
+    "name": "ProtoArray® Human Protein Microarray v3.0",
+    "technology": null
+  },
+  {
+    "platform_id": "recombinant-protein-array",
+    "name": "recombinant protein array",
+    "technology": null
+  },
+  {
+    "platform_id": "synovial-protein-array-0-2k-v1-0",
+    "name": "Synovial protein array 0.2K v1.0",
+    "technology": null
+  },
+  {
+    "platform_id": "synovial-protein-array-0-341k-v1-0",
+    "name": "Synovial protein array 0.341K v1.0",
+    "technology": null
+  },
+  {
+    "platform_id": "synovial-protein-array-0-5k-v1-0",
+    "name": "Synovial protein array 0.5K v1.0",
+    "technology": null
+  },
+  {
+    "platform_id": "synovial-protein-array-0-5k-v2-0",
+    "name": "Synovial protein array 0.5K v2.0",
+    "technology": null
+  },
+  {
+    "platform_id": "synovial-proteome-microarrays",
+    "name": "Synovial proteome microarrays",
+    "technology": null
+  },
+  {
+    "platform_id": "t1d-protein-training-array",
+    "name": "T1D protein training array",
+    "technology": null
+  },
+  {
+    "platform_id": "targeted-bead-based-microarrays",
+    "name": "targeted bead-based microarrays",
+    "technology": null
+  },
+  {
+    "platform_id": "targeted-design-microarray",
+    "name": "Targeted Design Microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "usaar-human-1827-v1-protein-macroarray",
+    "name": "USaar_Human_1827_v1 protein macroarray",
+    "technology": null
+  },
+  {
+    "platform_id": "utsw-medical-center-autoantigen-array",
+    "name": "UTSW Medical Center Autoantigen Array",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-aca-array",
+    "name": "Utz Lab ACA Array",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-aca-array-utz-lab-ctd-array",
+    "name": "Utz Lab ACA Array\nUtz Lab CTD Array",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-aca-array-version-2",
+    "name": "Utz Lab ACA Array version 2",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-aca-array-version-3",
+    "name": "Utz Lab ACA Array version 3",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-aca-array-version-prototype",
+    "name": "Utz Lab ACA Array version prototype",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-autoantigen-protein-microarray-v1",
+    "name": "Utz Lab autoantigen protein microarray v1",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-autoantigen-protein-microarray-v1-utz-lab-autoantigen-protein-microarray-v2-utz-lab-cytokine-chemokine-protein-microarray-utz-lab-viral-protein-microarray",
+    "name": "Utz Lab autoantigen protein microarray v1\nUtz Lab autoantigen protein microarray v2\nUtz Lab cytokine/chemokine protein microarray\nUtz Lab viral protein microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-autoantigen-protein-microarray-v2",
+    "name": "Utz Lab autoantigen protein microarray v2",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-ctd-and-cc-array",
+    "name": "Utz Lab CTD and CC Array",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-ctd-array",
+    "name": "Utz Lab CTD Array",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-ctd-array-version-2",
+    "name": "Utz Lab CTD Array version 2",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-ctd-array-version-3",
+    "name": "Utz Lab CTD Array version 3",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-ctd-array-version-prototype",
+    "name": "Utz Lab CTD Array version prototype",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-cytokine-chemokine-protein-microarray",
+    "name": "Utz Lab cytokine/chemokine protein microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-histone-protein-and-peptide-array",
+    "name": "Utz lab histone protein and peptide array",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-immunodeficiency-antigen-and-serum-factor-microarray-number-1",
+    "name": "Utz lab immunodeficiency antigen and serum factor microarray, number 1",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-immunodeficiency-antigen-and-serum-factor-microarray-number-2",
+    "name": "Utz lab immunodeficiency antigen and serum factor microarray, number 2",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-mouse-ctd-array",
+    "name": "Utz Lab Mouse CTD Array",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-protein-fragment-array",
+    "name": "Utz Lab Protein Fragment Array",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-sle-antigen-and-serum-factor-microarray",
+    "name": "Utz lab SLE antigen and serum factor microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-viral-protein-microarray",
+    "name": "Utz Lab viral protein microarray",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-whole-protein-autoantigen-array-v1-0",
+    "name": "Utz Lab Whole Protein Autoantigen Array V1.0",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-whole-protein-autoantigen-array-v2-0",
+    "name": "Utz Lab Whole Protein Autoantigen Array V2.0",
+    "technology": null
+  },
+  {
+    "platform_id": "utz-lab-whole-protein-autoantigen-array-v3-0",
+    "name": "Utz Lab Whole Protein Autoantigen Array V3.0",
+    "technology": null
+  },
+  {
+    "platform_id": "whole-human-proteome-phip-seq",
+    "name": "whole-human proteome PhIP-Seq",
+    "technology": null
+  },
+  {
+    "platform_id": "whole-proteome-microarray",
+    "name": "Whole-proteome Microarray",
+    "technology": null
+  }
+]

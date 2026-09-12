@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antibodyome-atlas/schema/link_status.schema.json",
+  "title": "LinkStatusCheck",
+  "description": "One append-only log entry from an automated reachability check of a dataset's link. Entries are never overwritten, so the history of a link's availability over time is preserved directly in git.",
+  "type": "object",
+  "required": ["atlas_id", "checked_at", "url_checked", "reachable", "checked_by"],
+  "properties": {
+    "atlas_id": {
+      "type": "string",
+      "pattern": "^AAB-[0-9]{6}$"
+    },
+    "checked_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "url_checked": {
+      "type": "string",
+      "format": "uri"
+    },
+    "http_status": {
+      "type": ["integer", "null"]
+    },
+    "reachable": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": ["string", "null"]
+    },
+    "checked_by": {
+      "type": "string",
+      "enum": ["github_action", "human"]
+    }
+  },
+  "additionalProperties": false
+}

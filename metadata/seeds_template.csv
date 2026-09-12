@@ -1,0 +1,2 @@
+seed_id,source_type,search_batch,identifier,link,curator_notes,curator,date_added
+example-001,DATASET,2026-09 manual search,GSE123456,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123456,,,

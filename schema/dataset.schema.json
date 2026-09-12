@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antibodyome-atlas/schema/dataset.schema.json",
+  "title": "AtlasDatasetRecord",
+  "description": "A canonical atlas record for one dataset or paper, produced by LLM-assisted enrichment from a seed.schema.json entry and validated before merge. References publications.json and platforms.json by id instead of embedding them.",
+  "type": "object",
+  "required": ["atlas_id", "record_type", "title", "dataset_link", "curated_availability", "provenance"],
+  "properties": {
+    "atlas_id": {
+      "type": "string",
+      "pattern": "^AAB-[0-9]{6}$",
+      "description": "Stable atlas-assigned id, immutable once assigned. Not the same as any external accession."
+    },
+    "record_type": {
+      "type": "string",
+      "enum": ["DATASET", "PAPER"],
+      "description": "Mirrors seed.source_type. DATASET has independently browsable deposited data; PAPER is a publication with no separate dataset accession."
+    },
+    "title": { "type": "string" },
+    "summary": { "type": ["string", "null"] },
+    "organism": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "e.g. ['Homo sapiens']"
+    },
+    "sample_tissue": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "conditions": {
+      "type": "array",
+      "description": "One entry per condition/control group, replacing the old semicolon-aligned 'Conditions' + 'sample n by condition' columns so counts can't drift out of sync with labels.",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "n": { "type": ["integer", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "total_sample_n": { "type": ["integer", "null"] },
+    "available_metadata": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Clinical/demographic variables available alongside the samples, e.g. ['age', 'sex']."
+    },
+    "ig_type": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "e.g. ['IgG', 'IgM']"
+    },
+    "platforms": {
+      "type": "array",
+      "description": "Platforms used, with the protein/feature count as reported for THIS study. Array because some papers report more than one platform (e.g. discovery + validation array). n_proteins_reported lives here rather than on platform.schema.json because the legacy data showed the same named platform reporting wildly different counts across studies (QC filtering, array version, subset analyzed) — it is not a fixed platform attribute.",
+      "items": {
+        "type": "object",
+        "required": ["platform_id"],
+        "properties": {
+          "platform_id": {
+            "type": "string",
+            "description": "Reference to platforms.json platform_id."
+          },
+          "n_proteins_reported": { "type": ["integer", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_ids": {
+      "type": "object",
+      "description": "External accessions/identifiers for this record.",
+      "properties": {
+        "geo_id": { "type": ["string", "null"] },
+        "arrayexpress_id": { "type": ["string", "null"] },
+        "other_accessions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "dataset_link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Primary URL for this record (dataset landing page, or paper link if record_type is PAPER)."
+    },
+    "related_atlas_ids": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^AAB-[0-9]{6}$" },
+      "description": "Other atlas records this one relates to (e.g. sibling sub-series of a superseries). Points to atlas_id, not raw external accessions."
+    },
+    "country": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Country/countries of patient sample origin."
+    },
+    "publication_id": {
+      "type": ["string", "null"],
+      "description": "Reference to publications.json publication_id, or null if no associated publication."
+    },
+    "curated_availability": {
+      "type": "object",
+      "description": "Availability as assessed at curation/enrichment time. Distinct from link_status.schema.json, which tracks ongoing automated reachability checks over time.",
+      "required": ["data_status"],
+      "properties": {
+        "data_status": {
+          "type": "string",
+          "enum": ["available", "upon_request", "unavailable", "unknown"],
+          "description": "available = raw or processed data can be downloaded now. upon_request = authors must be contacted. unavailable = confirmed not obtainable. unknown = not yet determined."
+        },
+        "data_content": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["raw", "processed", "normalized", "median", "mean", "significant", "counts", "differential_expression", "z_score"]
+          },
+          "description": "What form the available data takes. Only meaningful when data_status is 'available'."
+        },
+        "notes": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["seed_id", "search_batch", "enrichment_method"],
+      "properties": {
+        "seed_id": {
+          "type": "string",
+          "description": "seed_id of the seed.schema.json entry this record was enriched from."
+        },
+        "search_batch": { "type": "string" },
+        "enrichment_method": {
+          "type": "string",
+          "enum": ["manual", "llm_assisted"]
+        },
+        "curated_at": { "type": "string", "format": "date" },
+        "reviewed_by": { "type": ["string", "null"] },
+        "reviewed_at": { "type": ["string", "null"], "format": "date" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,176 @@
+{
+  "total_rows": 259,
+  "datasets_written": 259,
+  "publications_written": 211,
+  "platforms_written": 137,
+  "rows_missing_dataset_link": 0,
+  "rows_with_review_notes": 26,
+  "review_notes": [
+    [
+      "AAB-000030",
+      [
+        "could not align conditions ('prostate cancer; prostate carcinoma; benign prostate hyperplasia; healthy control') with sample n by condition ('49;70;28')"
+      ]
+    ],
+    [
+      "AAB-000046",
+      [
+        "could not align conditions (\"Parkinson's disease, Alzheimer's disease, multiple sclerosis, breast cancer; healthy control\") with sample n by condition ('132;54;30;30;156')"
+      ]
+    ],
+    [
+      "AAB-000048",
+      [
+        "could not align conditions ('Myelodysplastic Syndrome, Acute Myeloid Leukemia, healthy control; negative control') with sample n by condition ('59;16;34;2')"
+      ]
+    ],
+    [
+      "AAB-000060",
+      [
+        "could not align conditions ('systemic lupus erythematosus') with sample n by condition ('30;30')",
+        "total_sample_n reconstructed as sum of reported values (raw: '30;30')"
+      ]
+    ],
+    [
+      "AAB-000069",
+      [
+        "could not align conditions ('lung cancer; healthy control; disease control; negative control') with sample n by condition ('8;8; NA;NA\\n60;NA;60;60')",
+        "total_sample_n reconstructed as sum of reported values (raw: '16; 180')"
+      ]
+    ],
+    [
+      "AAB-000078",
+      [
+        "could not align conditions ('autoimmune disease; healthy control; connective tissue disorders; positive control') with sample n by condition ('4;20')"
+      ]
+    ],
+    [
+      "AAB-000105",
+      [
+        "total_sample_n reconstructed as sum of reported values (raw: '62;58')"
+      ]
+    ],
+    [
+      "AAB-000125",
+      [
+        "could not align conditions ('schizophrenia, healthy control') with sample n by condition ('5;0\\n73;52')",
+        "total_sample_n reconstructed as sum of reported values (raw: '5;125')"
+      ]
+    ],
+    [
+      "AAB-000126",
+      [
+        "could not align conditions ('non-paraneoplastic autoimmune sensory neuronopathies; paraneoplastic sensory neuronopathies with anti-Hu antibodies; healthy control; disease control') with sample n by condition ('16;8;7;7\\n12;NA;22;9\\n16;NA;29;5')",
+        "total_sample_n reconstructed as sum of reported values (raw: '38;43;50')"
+      ]
+    ],
+    [
+      "AAB-000137",
+      [
+        "could not align conditions ('delayed-onset combined immune deficiency; leaky SCID; Omenn syndrome; autoimmune polyendocrinopathy–candidiasis–ectodermal dystrophy; thymoma') with sample n by condition ('4;3;3;22;20;10')"
+      ]
+    ],
+    [
+      "AAB-000139",
+      [
+        "could not align conditions ('early-stage lung adenocarcinoma; benign lung disease; healthy control') with sample n by condition ('58;30;24\\n342;150;193')",
+        "total_sample_n reconstructed as sum of reported values (raw: '112; 685')"
+      ]
+    ],
+    [
+      "AAB-000144",
+      [
+        "could not align conditions ('endometriosis') with sample n by condition ('137;98')"
+      ]
+    ],
+    [
+      "AAB-000149",
+      [
+        "could not align conditions ('neuropsychiatric systemic lupus erythematosus (NPSLE); non-NPSLE; meningitis; scoliosis; acute lymphocytic leukemia; glioma; brain trauma') with sample n by condition ('12;7;5;5;NA;NA;NA\\n71;38;12;NA;14;13;17')",
+        "total_sample_n reconstructed as sum of reported values (raw: '39; 165')"
+      ]
+    ],
+    [
+      "AAB-000153",
+      [
+        "could not align conditions ('Esophageal squamous cell carcinoma; healthy control ') with sample n by condition ('12;12;12')"
+      ]
+    ],
+    [
+      "AAB-000162",
+      [
+        "could not align conditions ('chronic inflammatory demyelinating polyneuropathy; other peripheral neuropathies') with sample n by condition ('22;12;9')"
+      ]
+    ],
+    [
+      "AAB-000171",
+      [
+        "could not align conditions ('prostate cancer, benign prostate disease; healthy control ') with sample n by condition ('28;14;15')"
+      ]
+    ],
+    [
+      "AAB-000185",
+      [
+        "could not align Platform ('42,100-PrEST microarray; 384-PrEST microarray; immunoprecipitation coupled to LC-MS/MS; PrEST bead arrays') with Platform n proteins ('42100, 384, 987')"
+      ]
+    ],
+    [
+      "AAB-000191",
+      [
+        "could not align conditions ('severe traumatic brain injury') with sample n by condition ('25;45')"
+      ]
+    ],
+    [
+      "AAB-000201",
+      [
+        "could not align conditions ('rheumatoid arthritis') with sample n by condition ('76;38')"
+      ]
+    ],
+    [
+      "AAB-000211",
+      [
+        "could not align conditions ('psychotic disorders') with sample n by condition ('8;461')",
+        "total_sample_n reconstructed as sum of reported values (raw: '8;461')"
+      ]
+    ],
+    [
+      "AAB-000215",
+      [
+        "could not align conditions ('multiple sclerosis, narcolepsy, healthy and disease control') with sample n by condition ('1;3;6\\n8;7;8\\n191;85;162')",
+        "total_sample_n reconstructed as sum of reported values (raw: '10; 23; 448')"
+      ]
+    ],
+    [
+      "AAB-000216",
+      [
+        "could not align conditions ('Acute rheumatic fever; Group A Streptococcus pharingitis; healthy control') with sample n by condition ('3;3;3\\\\\\n12;0;6')",
+        "unparseable total sample n: '9\\\\\\n18'"
+      ]
+    ],
+    [
+      "AAB-000221",
+      [
+        "could not align conditions ('healthy control') with sample n by condition ('4; 859')",
+        "total_sample_n reconstructed as sum of reported values (raw: '4;859')"
+      ]
+    ],
+    [
+      "AAB-000232",
+      [
+        "could not align conditions ('APS1, IPEX, RAG1/2 deficiency, Kawasaki Disease (KD), Multisystem Inflammatory Syndrome in Children (MIS-C), severe COVID-19; moderate COVID-19; pediatric febrile control; healthy control') with sample n by condition ('128;27;62;70;20;20;117;55;186')"
+      ]
+    ],
+    [
+      "AAB-000244",
+      [
+        "could not align conditions ('patients with identical axon initial segment (AIS)-specific staining pattern/tripartite motif-containing protein 46 (TRIM46)-IgG seropositive patients') with sample n by condition ('17;16')"
+      ]
+    ],
+    [
+      "AAB-000255",
+      [
+        "unparseable total sample n: '7\\n18'"
+      ]
+    ]
+  ]
+}

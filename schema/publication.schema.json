@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antibodyome-atlas/schema/publication.schema.json",
+  "title": "Publication",
+  "description": "A publication referenced by one or more dataset records. Normalized out of dataset.schema.json so the same paper isn't repeated per dataset row.",
+  "type": "object",
+  "required": ["publication_id", "citation"],
+  "properties": {
+    "publication_id": {
+      "type": "string",
+      "description": "Stable id for this publication, e.g. derived from DOI ('doi-10.1371-journal.pone.0035296') or PMID ('pmid-22662108') when available."
+    },
+    "citation": {
+      "type": "string",
+      "description": "Full formatted citation text."
+    },
+    "doi": {
+      "type": ["string", "null"]
+    },
+    "pubmed_link": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "publisher_link": {
+      "type": ["string", "null"],
+      "format": "uri"
+    }
+  },
+  "additionalProperties": false
+}

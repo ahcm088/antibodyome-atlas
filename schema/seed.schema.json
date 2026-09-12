@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antibodyome-atlas/schema/seed.schema.json",
+  "title": "AtlasSeedEntry",
+  "description": "Minimal record a human curator fills in manually. This is the input to LLM-assisted enrichment, not the final atlas record — see dataset.schema.json for that.",
+  "type": "object",
+  "required": ["seed_id", "source_type", "search_batch"],
+  "anyOf": [
+    { "required": ["identifier"] },
+    { "required": ["link"] }
+  ],
+  "properties": {
+    "seed_id": {
+      "type": "string",
+      "description": "Curator-assigned tracking key for this seed row, unique within a search_batch (e.g. row number or short slug). Not the final atlas_id."
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["DATASET", "PAPER"],
+      "description": "DATASET = deposited data with an accession (GEO/ArrayExpress/etc). PAPER = a publication describing autoantibody results with no independently browsable dataset."
+    },
+    "search_batch": {
+      "type": "string",
+      "description": "Free-text label for the curation search/source that surfaced this entry (e.g. 'GEO search 1', 'HuProt website', 'author contact'). Kept for provenance, not parsed."
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Best known accession, DOI, or PMID for this entry, as found by the curator (e.g. GSE12345). May be approximate — the enrichment step verifies it."
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the dataset landing page or the publication, as found by the curator."
+    },
+    "curator_notes": {
+      "type": "string",
+      "description": "Free-text notes from the curator (e.g. why it's relevant, anything unusual)."
+    },
+    "curator": {
+      "type": "string",
+      "description": "Name or email of the person who added this seed entry."
+    },
+    "date_added": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antibodyome-atlas/schema/platform.schema.json",
+  "title": "Platform",
+  "description": "An assay platform (protein/antigen array, etc.) referenced by one or more dataset records. Normalized out of dataset.schema.json since many datasets reuse the same platform. Deliberately has no protein/feature count: the legacy data showed that count is reported per-study (varies with QC, version, subset analyzed), not a fixed platform attribute, so it lives on dataset.platforms[].n_proteins_reported instead.",
+  "type": "object",
+  "required": ["platform_id", "name"],
+  "properties": {
+    "platform_id": {
+      "type": "string",
+      "description": "Stable slug for this platform, e.g. 'huprot-human-proteome-microarray'."
+    },
+    "name": {
+      "type": "string",
+      "description": "Platform name as reported in the source (e.g. 'HuProt Human Proteome Microarray')."
+    },
+    "technology": {
+      "type": ["string", "null"],
+      "description": "Free-text technology family, e.g. 'planar protein microarray', 'bead-based array'. Optional — leave null rather than guessing."
+    }
+  },
+  "additionalProperties": false
+}

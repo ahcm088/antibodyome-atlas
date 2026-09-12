@@ -1,0 +1,33 @@
+name: Check dataset links
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python scripts/check_links.py
+
+      - run: python scripts/validate_metadata.py
+
+      - name: Commit link status update
+        run: |
+          git config user.name "antibodyome-atlas-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add metadata/link_status.json
+          git diff --cached --quiet || git commit -m "chore: update link status ($(date -u +%Y-%m-%d))"
+          git push
