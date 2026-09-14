@@ -7250,5 +7250,2595 @@
     "likely_bot_blocked": false,
     "notes": null,
     "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000001",
+    "checked_at": "2026-09-14T11:09:43Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE32016",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000002",
+    "checked_at": "2026-09-14T11:09:43Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69372",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000003",
+    "checked_at": "2026-09-14T11:09:43Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69371",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000004",
+    "checked_at": "2026-09-14T11:09:43Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69370",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000005",
+    "checked_at": "2026-09-14T11:09:43Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180737",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000006",
+    "checked_at": "2026-09-14T11:09:43Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180742",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000007",
+    "checked_at": "2026-09-14T11:09:43Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE32019",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000008",
+    "checked_at": "2026-09-14T11:09:43Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114043",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000009",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180740",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000010",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180741",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000011",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180738",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000012",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE222764",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000013",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE222760",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000014",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE17926",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000015",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65234",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000016",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180739",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000017",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97905",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000018",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62599",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000019",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63503",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000020",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48154",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000021",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69662",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000022",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE32543",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000023",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58949",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000024",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE23731",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000025",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70618",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000026",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69680",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000027",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77949",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000028",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18023",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000029",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE45515",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000030",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67068",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000031",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79516",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000032",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE88784",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000033",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68114",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000034",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68116",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000035",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68115",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000036",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68118",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000037",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68117",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000038",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65276",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000039",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65277",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000040",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65278",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000041",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78192",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000042",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39087",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000043",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74763",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000044",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE29654",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000045",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE29676",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000046",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62283",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000047",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE32691",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000048",
+    "checked_at": "2026-09-14T11:09:44Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48153",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000049",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59687",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000050",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95718",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000051",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137422",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000052",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152029",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000053",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79517",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000054",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79498",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000055",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68119",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000056",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83507",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000057",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133096",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000058",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE23609",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000059",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128077",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000060",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE34070",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000061",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE32021",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000062",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE33029",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000063",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE88785",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000064",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180743",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000065",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE222765",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000066",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE34555",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000067",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57099",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000068",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223434",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000069",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168198",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000070",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212467",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000071",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286504",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000072",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65290",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000073",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163395",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000074",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286503",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000075",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE236255",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000076",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286502",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000077",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292271",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000078",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290532",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000079",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290527",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000080",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290521",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000081",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290549",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000082",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE260478",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000083",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE260475",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000084",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE236254",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000085",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290594",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000086",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE048155",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000087",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE231808",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000088",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE231798",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000089",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE231801",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000090",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE231807",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000091",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148797",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000092",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18024",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000093",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18025",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000094",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57388",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000095",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18073",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000096",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329268",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000097",
+    "checked_at": "2026-09-14T11:09:45Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296597",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000098",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-8097",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000099",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-5369",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000100",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://pubs.acs.org/doi/10.1021/pr070525r",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000101",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "http://proteinmicroarray.cn/index.php?option=com_experiment&view=detail&experiment_id=225",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000102",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50866",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000103",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "http://proteinmicroarray.cn/index.php?option=com_experiment&view=detail&experiment_id=239",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000104",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://linkinghub.elsevier.com/retrieve/pii/S1568-9972(14)00183-9",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000105",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "http://proteinmicroarray.cn/index.php?option=com_article&view=detail&article_id=467",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000106",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "http://proteinmicroarray.cn/index.php?option=com_article&view=detail&article_id=614",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000107",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://linkinghub.elsevier.com/retrieve/pii/S0003-4967(24)18816-4",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000108",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://pubs.acs.org/doi/full/10.1021/pr100686b",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000109",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://pubs.acs.org/doi/10.1021/pr800023g",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000110",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://linkinghub.elsevier.com/retrieve/pii/S0003-4967(24)14933-3",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000111",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "http://proteinmicroarray.cn/index.php?option=com_article&view=detail&article_id=654",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000112",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://pubs.acs.org/doi/10.1021/pr700804c",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000113",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://linkinghub.elsevier.com/retrieve/pii/S0304-3835(12)00507-1",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000114",
+    "checked_at": "2026-09-14T11:09:46Z",
+    "url_checked": "https://dx.plos.org/10.1371/journal.pone.0071043",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000115",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://www.nature.com/articles/srep27623",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000116",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://pubs.acs.org/doi/10.1021/acsnano.6b03786",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000117",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51101",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000118",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51102",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000119",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51100",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000120",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://doi.org/10.1126/scitranslmed.aaa9186",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000121",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://www.jacionline.org/article/S0091-6749(19)30387-2/fulltext",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000122",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://www.nature.com/articles/s41586-023-06717-x",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000123",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://www.cell.com/cell/fulltext/S0092-8674(20)31157-0",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000124",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1111/sji.12864",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000125",
+    "checked_at": "2026-09-14T11:09:47Z",
+    "url_checked": "https://www.nature.com/articles/s41398-020-01079-8",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000126",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://www.sciencedirect.com/science/article/pii/S2589909025000127",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000127",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://www.neurology.org/doi/full/10.1212/NXI.0000000000200374",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000128",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://www.medrxiv.org/content/10.1101/2024.06.18.24309100v1",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000129",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://aacrjournals.org/cancerpreventionresearch/article/17/5/227/743164/Combination-of-an-Autoantibody-Panel-and-Alpha",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000130",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1002/ana.26943",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000131",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://www.jci.org/articles/view/178263",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000132",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://www.science.org/doi/10.1126/science.adh4059",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000133",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://journals.sagepub.com/doi/10.1177/1358863X231224383",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000134",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://www.sciencedirect.com/science/article/pii/S0009898123005296",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000135",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncr.35158",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000136",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://link.springer.com/article/10.1186/s13046-023-02867-y",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000137",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://www.science.org/doi/10.1126/sciimmunol.adq1697",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000138",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1002/mco2.679",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000139",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://ngdc.cncb.ac.cn/omix/release/OMIX006110",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000140",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://www.mdpi.com/1422-0067/22/20/11220",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000141",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-018-1452-4",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000142",
+    "checked_at": "2026-09-14T11:09:48Z",
+    "url_checked": "https://clinicalproteomicsjournal.biomedcentral.com/articles/10.1186/s12014-019-9242-4",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000143",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-12081",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000144",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://academic.oup.com/humrep/article/38/4/629/7030755",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000145",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://www.neurology.org/doi/10.1212/nxi.0000000000200145",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000146",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://www.jci.org/articles/view/151520",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000147",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://febs.onlinelibrary.wiley.com/doi/10.1002/1878-0261.13371",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000148",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://doi.org/10.1158/1078-0432.CCR-19-3211",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000149",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126643",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000150",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://www.sciencedirect.com/science/article/pii/S0889159122004068",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000151",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://elifesciences.org/articles/86678",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000152",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://www.jacionline.org/article/S0091-6749(17)31736-0/fulltext",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000153",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://www.nature.com/articles/s41419-023-05571-z",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000154",
+    "checked_at": "2026-09-14T11:09:49Z",
+    "url_checked": "https://ascopubs.org/doi/abs/10.1200/JCO.2022.40.16_suppl.9536?role=tab",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000155",
+    "checked_at": "2026-09-14T11:09:50Z",
+    "url_checked": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2021.637871/full",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000156",
+    "checked_at": "2026-09-14T11:09:50Z",
+    "url_checked": "https://www.atsjournals.org/doi/10.1164/rccm.201804-0628OC",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000157",
+    "checked_at": "2026-09-14T11:09:50Z",
+    "url_checked": "https://www.jrheum.org/content/50/9/1136",
+    "http_status": null,
+    "reachable": false,
+    "likely_bot_blocked": false,
+    "notes": "HTTPSConnectionPool(host='www.jrheum.org', port=443): Read timed out. (read timeout=15)",
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000158",
+    "checked_at": "2026-09-14T11:09:50Z",
+    "url_checked": "https://ejbc.kr/DOIx.php?id=10.4048/jbc.2018.21.1.87",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000159",
+    "checked_at": "2026-09-14T11:09:50Z",
+    "url_checked": "https://ard.bmj.com/content/82/9/1181.full",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000160",
+    "checked_at": "2026-09-14T11:09:50Z",
+    "url_checked": "https://www.nature.com/articles/s41598-021-04556-2",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000161",
+    "checked_at": "2026-09-14T11:09:51Z",
+    "url_checked": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1010069",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000162",
+    "checked_at": "2026-09-14T11:09:51Z",
+    "url_checked": "https://www.neurology.org/doi/10.1212/NXI.0000000000000944",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000163",
+    "checked_at": "2026-09-14T11:09:51Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1111/cas.15217",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000164",
+    "checked_at": "2026-09-14T11:09:51Z",
+    "url_checked": "https://link.springer.com/article/10.1007/s10875-020-00937-w",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000165",
+    "checked_at": "2026-09-14T11:09:51Z",
+    "url_checked": "https://doi.org/10.2147/COPD.S235903",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000166",
+    "checked_at": "2026-09-14T11:09:51Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-11947",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000167",
+    "checked_at": "2026-09-14T11:09:51Z",
+    "url_checked": "https://linkinghub.elsevier.com/retrieve/pii/S1521-6616(22)00287-X",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000168",
+    "checked_at": "2026-09-14T11:09:52Z",
+    "url_checked": "https://www.oncotarget.com/article/20419/text/",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000169",
+    "checked_at": "2026-09-14T11:09:52Z",
+    "url_checked": "https://aacrjournals.org/clincancerres/article/28/18/4121/708994/Baseline-Serum-Autoantibody-Signatures-Predict",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000170",
+    "checked_at": "2026-09-14T11:09:52Z",
+    "url_checked": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-022-02365-7",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000171",
+    "checked_at": "2026-09-14T11:09:52Z",
+    "url_checked": "https://link.springer.com/article/10.1007/s00262-022-03242-0",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000172",
+    "checked_at": "2026-09-14T11:09:52Z",
+    "url_checked": "https://www.nature.com/articles/s41586-023-05736-y#MOESM1",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000173",
+    "checked_at": "2026-09-14T11:09:52Z",
+    "url_checked": "https://link.springer.com/article/10.1007/s00432-023-04643-z",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000174",
+    "checked_at": "2026-09-14T11:09:52Z",
+    "url_checked": "https://pubs.acs.org/doi/10.1021/acs.jproteome.3c00268",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000175",
+    "checked_at": "2026-09-14T11:09:52Z",
+    "url_checked": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.930074",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000176",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://www.nature.com/articles/srep13895",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000177",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://www.mcponline.org/article/S1535-9476(20)35036-2/fulltext",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000178",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://academic.oup.com/rheumatology/article/59/6/1416/5695785?login=false",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000179",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(21)00164-6",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000180",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1002/ijc.34334",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000181",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://www.nature.com/articles/s41591-022-01724-3",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000182",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://www.nature.com/articles/s41598-022-10174-3",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000183",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1111/cas.15227",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000184",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://data.mendeley.com/datasets/d2p7zc54gk/1",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000185",
+    "checked_at": "2026-09-14T11:09:53Z",
+    "url_checked": "https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD028392-1",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000186",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2018.00039/full",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000187",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://www.nature.com/articles/s41598-018-23034-w",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000188",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://www.nature.com/articles/s41435-020-0097-5",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000189",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://www.ahajournals.org/doi/10.1161/JAHA.119.014142",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000190",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://www.tandfonline.com/doi/full/10.1080/2162402X.2020.1804703",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000191",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://academic.oup.com/jimmunol/article-abstract/207/1/90/7944433",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000192",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE32542",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000193",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.658922/full",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000194",
+    "checked_at": "2026-09-14T11:09:54Z",
+    "url_checked": "https://www.pnas.org/doi/full/10.1073/pnas.0806310105",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000195",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.mdpi.com/2072-6694/12/2/485",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000196",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.pnas.org/doi/10.1073/pnas.0914213107",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000197",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.543947",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000198",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.cell.com/cell/fulltext/S0092-8674(20)31231-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420312319%3Fshowall%3Dtrue#secsectitle0010",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000199",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://linkinghub.elsevier.com/retrieve/pii/S1535-9476(20)32306-9",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000200",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://linkinghub.elsevier.com/retrieve/pii/S1874-3919(13)00530-7",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000201",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/art.21269",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000202",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://pubs.acs.org/doi/10.1021/pr900131e",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000203",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://pubs.acs.org/doi/10.1021/acs.jproteome.6b00354",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000204",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.mcponline.org/article/S1535-9476(20)33958-X/fulltext",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000205",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://doi.org/10.1073/pnas.0708572104",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000206",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.pnas.org/doi/10.1073/pnas.0502178102",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000207",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.mcponline.org/article/S1535-9476(20)35150-1/fulltext#secsectitle0010",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000208",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.mcponline.org/article/S1535-9476(20)32432-4/fulltext",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000209",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.mcponline.org/article/S1535-9476(20)32580-9/fulltext#seccestitle10",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000210",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://jhoonline.biomedcentral.com/articles/10.1186/s13045-020-00918-x",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000211",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.nature.com/articles/s41398-021-01596-0",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000212",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.sciencedirect.com/science/article/pii/S1535947620312287",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000213",
+    "checked_at": "2026-09-14T11:09:55Z",
+    "url_checked": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0242608349&origin=inward&txGid=58ccdaac1e149035d5b985d5476d33ee",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000214",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE32544",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000215",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://pubs.acs.org/doi/full/10.1021/acs.jproteome.6b00916",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000216",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://www.frontiersin.org/articles/10.3389/fimmu.2021.702877/full",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000217",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://www.mdpi.com/2072-6694/12/5/1271",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000218",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://link.springer.com/article/10.1186/s12935-023-03107-1",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000219",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://www.tandfonline.com/doi/10.1080/2162402X.2020.1814515",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000220",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://linkinghub.elsevier.com/retrieve/pii/S1556-0864(15)00204-X",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000221",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://www.tandfonline.com/doi/10.1080/08916934.2019.1581774",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000222",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://www.pnas.org/doi/10.1073/pnas.1621457114",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000223",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://doi.org/10.21037/tlcr-20-727",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000224",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://www.tandfonline.com/doi/10.1080/2162402X.2018.1452582",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000225",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1002/jcb.27497",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000226",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1155/2014/512540",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000227",
+    "checked_at": "2026-09-14T11:09:56Z",
+    "url_checked": "https://onlinelibrary.wiley.com/doi/10.1111/cas.14732",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000228",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.01081/full",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000229",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(15)00073-0",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000230",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.oncotarget.com/article/7500/text/",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000231",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://doi.org/10.7272/Q66H4FM2",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000232",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://doi.org/10.5061/dryad.qfttdz0k4",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000233",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC9143919",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000234",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC6568263",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000235",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC9312229",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000236",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://datadryad.org/dataset/doi:10.5061/dryad.kh18932hj",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000237",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9254439",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000238",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9476399",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000239",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/bioproject/1004422",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000240",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC11506559",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000241",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC8414044",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000242",
+    "checked_at": "2026-09-14T11:09:57Z",
+    "url_checked": "https://datadryad.org/dataset/doi:10.7272/Q6BG2M7B",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000243",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC11822791",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000244",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9597704",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000245",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9652015",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000246",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1070874",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000247",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9681064",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000248",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://zenodo.org/records/16412319",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000249",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC7618343",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000250",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC4169279",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000251",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9329235",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000252",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://www.nejm.org/doi/10.1056/NEJMoa1816721",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000253",
+    "checked_at": "2026-09-14T11:09:58Z",
+    "url_checked": "https://datadryad.org/dataset/doi:10.7272/Q6SJ1HVH",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000254",
+    "checked_at": "2026-09-14T11:09:59Z",
+    "url_checked": "https://datadryad.org/dataset/doi:10.5061/dryad.w3r2280z6",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000255",
+    "checked_at": "2026-09-14T11:09:59Z",
+    "url_checked": "https://diabetesjournals.org/diabetes/article/72/1/59/147096/Autoantibodies-to-Perilipin-1-Define-a-Subset-of",
+    "http_status": 403,
+    "reachable": false,
+    "likely_bot_blocked": true,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000256",
+    "checked_at": "2026-09-14T11:09:59Z",
+    "url_checked": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA507500",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000257",
+    "checked_at": "2026-09-14T11:09:59Z",
+    "url_checked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228615",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000258",
+    "checked_at": "2026-09-14T11:09:59Z",
+    "url_checked": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC9900111",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
+  },
+  {
+    "atlas_id": "AAB-000259",
+    "checked_at": "2026-09-14T11:09:59Z",
+    "url_checked": "https://datadryad.org/dataset/doi:10.7272/Q6Z60M99",
+    "http_status": 200,
+    "reachable": true,
+    "likely_bot_blocked": false,
+    "notes": null,
+    "checked_by": "github_action"
   }
 ]
